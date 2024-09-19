@@ -215,7 +215,7 @@ export const contentData = {
 
 
 
-
+import company_image from '../../public/assets/img/about/9.png'
 
   
 export const servicesData = {
@@ -228,7 +228,7 @@ export const servicesData = {
     { name: 'Personal Loan', link: '/service-details/personal-loan', id: 'personal' }
   ],
   companyDetails: {
-    imageSrc: 'assets/img/about/9.png',
+    imageSrc: company_image,
     buttonText: 'Discover our company +',
     buttonLink: '#'
   },
