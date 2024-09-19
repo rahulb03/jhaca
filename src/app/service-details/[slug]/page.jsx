@@ -184,6 +184,7 @@
 import { contentData } from '@/data/services';
 import ServiceDetailsArea from '@/components/service_area/ServiceDetailsArea';
 import { WEBSITE_NAME } from '@/Config/config';
+import Breadcrumb from '@/components/Breadcrumb';
 // Generate dynamic metadata
 export async function generateMetadata({ params }) {
   const { slug } = params; // Get slug from the dynamic route
@@ -215,10 +216,17 @@ const ServiceDetailPage = ({ params }) => {
   }
 
   return (
+    <>
+    <Breadcrumb title={service.title || "Service Details"} />
+
     <div>
+
+    
       {/* Render service details */}
       <ServiceDetailsArea service={service} />
     </div>
+
+    </>
   );
 };
 

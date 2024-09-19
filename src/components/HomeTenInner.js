@@ -120,7 +120,7 @@ const HomeTenInner = () => {
                                         Hi ! I’m Philip{' '}
                                     </h2>
                                     <h3
-                                        className="mb-3 mb-lg-4 text-white wow animated fadeInLeft mb-0"
+                                        className=" mb-lg-4 text-white wow animated fadeInLeft mb-0"
                                         data-wow-duration="1.5s"
                                         data-wow-delay="0.4s"
                                     >
@@ -1135,7 +1135,7 @@ const HomeTenInner = () => {
                             <div className="row">
                                 <div className="col-lg-4">
                                     <div className="border-2 p-xl-4 p-3">
-                                        <div className="media mb-3 border-bottom-2 pb-4 mb-4">
+                                        <div className="media  border-bottom-2 pb-4 mb-4">
                                             <div className="media-left me-3">
                                                 <img src="assets/img/home-10/39.png" alt="img" />
                                             </div>
@@ -1146,7 +1146,7 @@ const HomeTenInner = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                        <div className="media mb-3 border-bottom-2 pb-4 mb-4">
+                                        <div className="media  border-bottom-2 pb-4 mb-4">
                                             <div className="media-left me-3">
                                                 <img src="assets/img/home-10/40.png" alt="img" />
                                             </div>
