@@ -1,7 +1,8 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
-import serviceList from "../scripts/serviceList";
+// import serviceList from "../scripts/serviceList";
 import Link from "next/link";
+import serviceList from "@/scripts/serviceList";
 
 const ServiceAreaGroup = () => {
   return (

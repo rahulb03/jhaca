@@ -1,14 +1,15 @@
-import AboutAreaSeven from "@/components/AboutAreaSeven";
-import BannerSix from "@/components/BannerSix";
-import BlogAreaSix from "@/components/BlogAreaSix";
-import CaseStudyAreaThree from "@/components/CaseStudyAreaThree";
-import ContactAreaFive from "@/components/ContactAreaFive";
-import CounterAreaFive from "@/components/CounterAreaFive";
-import FooterFive from "@/components/FooterFive";
-import NavbarFive from "@/components/NavbarFive";
-import ServiceAreaSix from "@/components/ServiceAreaSix";
-import TeamAreaFour from "@/components/TeamAreaFour";
-import WorkProcessFive from "@/components/WorkProcessFive";
+import AboutAreaSeven from "@/components/About/AboutAreaSeven";
+import BannerSix from "@/components/Banner/BannerSix";
+import BlogAreaSix from "@/components/Blog_area/BlogAreaSix";
+// import CaseStudyAreaThree from "@/components/CaseStudyAreaThree";
+import CaseStudyAreaThree from "@/components/case_study/CaseStudyAreaThree";
+import ContactAreaFive from "@/components/contact_area/ContactAreaFive";
+import CounterAreaFive from "@/components/contact_area/CounterAreaFive";
+import FooterFive from "@/components/footer/FooterFive";
+import NavbarFive from "@/components/Header/NavbarFive";
+import ServiceAreaSix from "@/components/service_area/ServiceAreaSix";
+import TeamAreaFour from "@/components/team_area/TeamAreaFour";
+import WorkProcessFive from "@/components/work_Process/WorkProcessFive";
 
 
 

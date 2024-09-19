@@ -1,15 +1,15 @@
-import AboutAreaNine from "@/components/AboutAreaNine";
-import BannerNine from "@/components/BannerNine";
-import BlogAreaNine from "@/components/BlogAreaNine";
-import CounterAreaSix from "@/components/CounterAreaSix";
-import FooterEight from "@/components/FooterEight";
+import AboutAreaNine from "@/components/About/AboutAreaNine";
+import BannerNine from "@/components/Banner/BannerNine";
+import BlogAreaNine from "@/components/Blog_area/BlogAreaNine";
+import CounterAreaSix from "@/components/contact_area/CounterAreaSix";
+import FooterEight from "@/components/footer/FooterEight";
 import GalleryOne from "@/components/GalleryOne";
-import NavbarEight from "@/components/NavbarEight";
+import NavbarEight from "@/components/Header/NavbarEight";
 import ProgressOne from "@/components/ProgressOne";
 import RoadmapOne from "@/components/RoadmapOne";
-import ServiceAreaEight from "@/components/ServiceAreaEight";
-import TeamAreaSix from "@/components/TeamAreaSix";
-import TestimonialEight from "@/components/TestimonialEight";
+import ServiceAreaEight from "@/components/service_area/ServiceAreaEight";
+import TeamAreaSix from "@/components/team_area/TeamAreaSix";
+import TestimonialEight from "@/components/testimonial/TestimonialEight";
 
 
 export const metadata = {

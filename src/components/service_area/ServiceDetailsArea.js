@@ -1,224 +1,253 @@
+// import Link from 'next/link';
+// import React from 'react';
+// import { FaAngleDoubleRight, FaArrowRight, FaCheckCircle } from 'react-icons/fa';
+// import { servicesData , contentData ,  } from '@/data/services';
+// // Data object for services, company details, and downloads
+
+
+// const ServiceDetailsArea = () => {
+//   return (
+//     <div className="service-area pd-top-120 pd-bottom-90">
+//       <div className="container">
+//         <div className="row">
+//           {/* Sidebar */}
+          // <div className="col-lg-4 col-12">
+          //   <div className="td-sidebar service-sidebar">
+          //     {/* Services List */}
+          //     <div className="widget widget_catagory">
+          //       <h5 className="widget-title">
+          //         <FaArrowRight /> All Service lists
+          //       </h5>
+          //       <ul className="catagory-items">
+          //         {servicesData.servicesList.map((service, index) => (
+          //           <li key={index}>
+          //             <Link href={service.link}>{service.name}</Link>
+          //           </li>
+          //         ))}
+          //       </ul>
+          //     </div>
+
+          //     {/* Company Details */}
+          //     <div className="widget widget_author text-center">
+          //       <div className="thumb">
+          //         <img src={servicesData.companyDetails.imageSrc} alt="Company" />
+          //       </div>
+          //       <div className="details">
+          //         <Link className="btn btn-base border-radius-5" href={servicesData.companyDetails.buttonLink}>
+          //           {servicesData.companyDetails.buttonText}
+          //         </Link>
+          //       </div>
+          //     </div>
+
+          //     {/* Downloads */}
+          //     <div className="widget widget_download">
+          //       <h5 className="widget-title">
+          //         <FaArrowRight /> Download
+          //       </h5>
+          //       <ul>
+          //         {servicesData.downloads.map((download, index) => (
+          //           <li key={index}>
+          //             <Link href={download.link}>
+          //               {download.name} <FaAngleDoubleRight />
+          //             </Link>
+          //           </li>
+          //         ))}
+          //       </ul>
+          //     </div>
+          //   </div>
+          // </div>
+
+//           {/* Main Content */}
+//           <div className="col-lg-8">
+//             <div className="blog-details-page-content">
+//               <div className="single-blog-inner mb-0">
+//                 {/* Blog Content Based on Selected Service */}
+//                 <div className="details">
+//                   {contentData.services.map((service, index) => (
+//                     <div key={index} id={service.id}>
+//                       <h4>{service.title}</h4>
+//                       <p>{service.description}</p>
+//                       {/* Service Image */}
+//                       <div className="thumb">
+//                         <img src={service.imageSrc} alt={service.title} />
+//                       </div>
+//                       {service.content.map((paragraph, idx) => (
+//                         <p key={idx}>{paragraph}</p>
+//                       ))}
+
+//                       <h4>FAQs</h4>
+//                       <div className="accordion accordion-inner accordion-icon-left mt-3 mb-4" id="accordionExample">
+//                         {service.questions.map((faq, idx) => (
+//                           <div className="accordion-item" key={idx}>
+//                             <h2 className="accordion-header" id={`heading${service.id}-${idx}`}>
+//                               <button
+//                                 className="accordion-button"
+//                                 type="button"
+//                                 data-bs-toggle="collapse"
+//                                 data-bs-target={`#collapse${service.id}-${idx}`}
+//                                 aria-expanded={idx === 0 ? 'true' : 'false'}
+//                                 aria-controls={`collapse${service.id}-${idx}`}
+//                               >
+//                                 {faq.question}
+//                               </button>
+//                             </h2>
+//                             <div
+//                               id={`collapse${service.id}-${idx}`}
+//                               className={`accordion-collapse collapse ${idx === 0 ? 'show' : ''}`}
+//                               aria-labelledby={`heading${service.id}-${idx}`}
+//                               data-bs-parent="#accordionExample"
+//                             >
+//                               <div className="accordion-body">{faq.answer}</div>
+//                             </div>
+//                           </div>
+//                         ))}
+//                       </div>
+
+//                       <h4>Service Highlights</h4>
+//                       <div className="row">
+//                         {service.highlights.map((column, colIndex) => (
+//                           <div className="col-md-6" key={colIndex}>
+//                             <ul className="single-list-inner style-check style-check mb-3">
+//                               {column.map((highlight, idx) => (
+//                                 <li key={idx}>
+//                                   <FaCheckCircle /> {highlight.text}
+//                                 </li>
+//                               ))}
+//                             </ul>
+//                           </div>
+//                         ))}
+//                       </div>
+//                     </div>
+//                   ))}
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default ServiceDetailsArea;
+
+
+
+
+
+// /components/ServiceDetailsArea.jsx
 import Link from 'next/link';
 import React from 'react';
-import {
-  FaAngleDoubleRight,
-  FaArrowRight,
-  FaCheckCircle,
-} from 'react-icons/fa';
+import { FaAngleDoubleRight, FaArrowRight, FaCheckCircle } from 'react-icons/fa';
+import { servicesData } from '@/data/services';
 
-const ServiceDetailsArea = () => {
+
+const ServiceDetailsArea = ({ service }) => {
   return (
-    <>
-      {/* ===================== Service Details Area start ===================== */}
-      <div className="service-area pd-top-120 pd-bottom-90">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-4 col-12">
-              <div className="td-sidebar service-sidebar">
-                <div className="widget widget_catagory">
-                  <h5 className="widget-title">
-                    <FaArrowRight /> All Service lists
-                  </h5>
-                  <ul className="catagory-items">
-                    <li>
-                      <Link href="/service-details"> Planning Department</Link>
+    <div className="service-area pd-top-120 pd-bottom-90">
+      <div className="container">
+        <div className="row">
+          {/* Sidebar */}
+          <div className="col-lg-4 col-12">
+            <div className="td-sidebar service-sidebar">
+              {/* Services List */}
+              <div className="widget widget_catagory">
+                <h5 className="widget-title">
+                  <FaArrowRight /> All Service lists
+                </h5>
+                <ul className="catagory-items">
+                  {servicesData.servicesList.map((service, index) => (
+                    <li key={index}>
+                      <Link href={service.link}>{service.name}</Link>
                     </li>
-                    <li>
-                      <Link href="/service-details"> Software Department</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details"> Hardware Department</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details"> It Department</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details"> Others Development</Link>
-                    </li>
-                  </ul>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Company Details */}
+              <div className="widget widget_author text-center">
+                <div className="thumb">
+                  <img src={servicesData.companyDetails.imageSrc} alt="Company" />
                 </div>
-                <div className="widget widget_author text-center">
-                  <div className="thumb">
-                    <img src="assets/img/about/9.png" alt="img" />
-                  </div>
-                  <div className="details">
-                    <Link className="btn btn-base border-radius-5" href="#">
-                      Discover our company +
-                    </Link>
-                  </div>
-                </div>
-                <div className="widget widget_download">
-                  <h5 className="widget-title">
-                    <FaArrowRight /> Download
-                  </h5>
-                  <ul>
-                    <li>
-                      <Link href="#">
-                        {' '}
-                        Company Profile <FaAngleDoubleRight />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        {' '}
-                        Zip File Download <FaAngleDoubleRight />
-                      </Link>
-                    </li>
-                  </ul>
+                <div className="details">
+                  <Link className="btn btn-base border-radius-5" href={servicesData.companyDetails.buttonLink}>
+                    {servicesData.companyDetails.buttonText}
+                  </Link>
                 </div>
               </div>
+
+              {/* Downloads */}
+              <div className="widget widget_download">
+                <h5 className="widget-title">
+                  <FaArrowRight /> Download
+                </h5>
+                <ul>
+                  {servicesData.downloads.map((download, index) => (
+                    <li key={index}>
+                      <Link href={download.link}>
+                        {download.name} <FaAngleDoubleRight />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
-            <div className="col-lg-8">
-              <div className="blog-details-page-content">
-                <div className="single-blog-inner mb-0">
+          </div>
+
+          {/* Main Content */}
+          <div className="col-lg-8">
+            <div className="blog-details-page-content">
+              <div className="single-blog-inner mb-0">
+                <div className="details">
+                  <h4>{service.title}</h4>
+                  <p>{service.description}</p>
                   <div className="thumb">
-                    <img src="assets/img/service/7.png" alt="img" />
+                    <img src={service.imageSrc} alt={service.title} />
                   </div>
-                  <div className="details">
-                    <h4>
-                      Making this the first true generator on the Internet
-                    </h4>
-                    <p>
-                      Cras varius. Donec vitae orci sed dolor rutrum auctor.
-                      Fusce egestas elit eget lorem. Suspendisse nisl elit,
-                      rhoncus eget elementum acondimentum eget, diam. Nam at
-                      tortor in tellus interdum sagitliquam lobortis. Donec orci
-                      lectus, aliquam ut, faucibus non, euismod id, nulla.
-                      Curabitur blandit mollis lacus. Nam adipiscing. Vestibulum
-                      eu odio. Vivamus laoreet.
-                    </p>
-                    <p>
-                      Lorem available market standard dummy text available
-                      market industry Lorem Ipsum simply dummy text of free
-                      available market.There are many variations of passages of
-                      Lorem Ipsum available, but the majority have suffered
-                      alteration in some form,
-                    </p>
-                    <h4>Get touch have any question ?</h4>
-                    <p>
-                      It is a long established fact that a reader will be distr
-                      acted bioiiy the end gail readable content of a page when
-                      looking.
-                    </p>
-                    <div
-                      className="accordion accordion-inner accordion-icon-left mt-3 mb-4"
-                      id="accordionExample"
-                    >
-                      <div className="accordion-item">
-                        <h2 className="accordion-header" id="headingOne">
+                  {service.content.map((paragraph, idx) => (
+                    <p key={idx}>{paragraph}</p>
+                  ))}
+
+                  <h4>FAQs</h4>
+                  <div className="accordion accordion-inner accordion-icon-left mt-3 mb-4">
+                    {service.questions.map((faq, idx) => (
+                      <div className="accordion-item" key={idx}>
+                        <h2 className="accordion-header" id={`heading${service.id}-${idx}`}>
                           <button
                             className="accordion-button"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne"
-                            aria-expanded="true"
-                            aria-controls="collapseOne"
+                            data-bs-target={`#collapse${service.id}-${idx}`}
+                            aria-expanded={idx === 0 ? 'true' : 'false'}
+                            aria-controls={`collapse${service.id}-${idx}`}
                           >
-                            What services do you offer?
+                            {faq.question}
                           </button>
                         </h2>
                         <div
-                          id="collapseOne"
-                          className="accordion-collapse collapse show"
-                          aria-labelledby="headingOne"
-                          data-bs-parent="#accordionExample"
+                          id={`collapse${service.id}-${idx}`}
+                          className={`accordion-collapse collapse ${idx === 0 ? 'show' : ''}`}
+                          aria-labelledby={`heading${service.id}-${idx}`}
                         >
-                          <div className="accordion-body">
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
-                          </div>
+                          <div className="accordion-body">{faq.answer}</div>
                         </div>
                       </div>
-                      <div className="accordion-item">
-                        <h2 className="accordion-header" id="headingTwo">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo"
-                            aria-expanded="false"
-                            aria-controls="collapseTwo"
-                          >
-                            How long does it take for you to complete a project?
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseTwo"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="headingTwo"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div className="accordion-body">
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
-                          </div>
-                        </div>
-                      </div>
-                      <div className="accordion-item">
-                        <h2 className="accordion-header" id="headingThree">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
-                            aria-expanded="false"
-                            aria-controls="collapseThree"
-                          >
-                            How much does it cost to work with your agency?
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseThree"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="headingThree"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div className="accordion-body">
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <h4>Our Best it company</h4>
-                    <p>
-                      Thooiie point the of using the table.Your Startup industry
-                      is ours standard our service decesion loream saum solar
-                      sysem in the world.
-                    </p>
-                    <div className="row">
-                      <div className="col-md-6">
+                    ))}
+                  </div>
+
+                  <h4>Service Highlights</h4>
+                  <div className="row">
+                    {service.highlights.map((column, colIndex) => (
+                      <div className="col-md-6" key={colIndex}>
                         <ul className="single-list-inner style-check style-check mb-3">
-                          <li>
-                            <FaCheckCircle /> Creating a Balanced and Nutritious
-                          </li>
-                          <li>
-                            <FaCheckCircle /> iTechnology that helps grow
-                            companies
-                          </li>
-                          <li>
-                            <FaCheckCircle /> Everything you need to succeed
-                          </li>
+                          {column.map((highlight, idx) => (
+                            <li key={idx}>
+                              <FaCheckCircle /> {highlight.text}
+                            </li>
+                          ))}
                         </ul>
                       </div>
-                      <div className="col-md-6">
-                        <ul className="single-list-inner style-check style-check mb-3">
-                          <li>
-                            <FaCheckCircle /> Creating a Balanced and Nutritious
-                          </li>
-                          <li>
-                            <FaCheckCircle /> iTechnology that helps grow
-                            companies
-                          </li>
-                          <li>
-                            <FaCheckCircle /> Everything you need to succeed
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -226,8 +255,7 @@ const ServiceDetailsArea = () => {
           </div>
         </div>
       </div>
-      {/* ===================== Service Details Area End ===================== */}
-    </>
+    </div>
   );
 };
 

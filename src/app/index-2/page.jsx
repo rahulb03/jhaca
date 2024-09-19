@@ -1,14 +1,14 @@
-import AboutAreaTwo from "@/components/AboutAreaTwo";
-import BannerTwo from "@/components/BannerTwo";
-import BlogAreaTwo from "@/components/BlogAreaTwo";
-import ContactAreaTwo from "@/components/ContactAreaTwo";
-import CounterAreaTwo from "@/components/CounterAreaTwo";
-import FooterTwo from "@/components/FooterTwo";
-import NavbarTwo from "@/components/NavbarTwo";
-import PricingAreaTwo from "@/components/PricingAreaTwo";
-import ServiceAreaTwo from "@/components/ServiceAreaTwo";
-import TestimonialOne from "@/components/TestimonialOne";
-import WorkProcessTwo from "@/components/WorkProcessTwo";
+import AboutAreaTwo from "@/components/About/AboutAreaTwo";
+import BannerTwo from "@/components/Banner/BannerTwo";
+import BlogAreaTwo from "@/components/Blog_area/BlogAreaTwo";
+import ContactAreaTwo from "@/components/contact_area/ContactAreaTwo";
+import CounterAreaTwo from "@/components/contact_area/CounterAreaTwo";
+import FooterTwo from "@/components/footer/FooterTwo";
+import NavbarTwo from "@/components/Header/NavbarTwo";
+import PricingAreaTwo from "@/components/pricing_area/PricingAreaTwo";
+import ServiceAreaTwo from "@/components/service_area/ServiceAreaTwo";
+import TestimonialOne from "@/components/testimonial/TestimonialOne";
+import WorkProcessTwo from "@/components/work_Process/WorkProcessTwo";
 
 
 

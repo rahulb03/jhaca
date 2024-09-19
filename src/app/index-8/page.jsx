@@ -1,15 +1,15 @@
-import BannerEight from "@/components/BannerEight";
-import BlogAreaEight from "@/components/BlogAreaEight";
-import ContactAreaSix from "@/components/ContactAreaSix";
-import FooterSeven from "@/components/FooterSeven";
-import NavbarSeven from "@/components/NavbarSeven";
-import ProjectAreaThree from "@/components/ProjectAreaThree";
-import ServiceAreaSeven from "@/components/ServiceAreaSeven";
+import BannerEight from "@/components/Banner/BannerEight";
+import BlogAreaEight from "@/components/Blog_area/BlogAreaEight";
+import ContactAreaSix from "@/components/contact_area/ContactAreaSix";
+import FooterSeven from "@/components/footer/FooterSeven";
+import NavbarSeven from "@/components/Header/NavbarSeven";
+import ProjectAreaThree from "@/components/project/ProjectAreaThree";
+import ServiceAreaSeven from "@/components/service_area/ServiceAreaSeven";
 import SolutionOne from "@/components/SolutionOne";
-import TeamAreaFive from "@/components/TeamAreaFive";
-import TestimonialSeven from "@/components/TestimonialSeven";
+import TeamAreaFive from "@/components/team_area/TeamAreaFive";
+import TestimonialSeven from "@/components/testimonial/TestimonialSeven";
 import WhyChoose from "@/components/WhyChoose";
-import WorkProcessSeven from "@/components/WorkProcessSeven";
+import WorkProcessSeven from "@/components/work_Process/WorkProcessSeven";
 
 
 

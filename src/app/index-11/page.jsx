@@ -1,11 +1,11 @@
-import BannerTen from "@/components/BannerTen";
-import BlogAreaENine from "@/components/BlogAreaENine";
-import FooterNine from "@/components/FooterNine";
-import NavbarTwo from "@/components/NavbarTwo";
-import ServiceAreaNine from "@/components/ServiceAreaNine";
-import TestimonialNine from "@/components/TestimonialNine";
+import BannerTen from "@/components/Banner/BannerTen";
+import BlogAreaENine from "@/components/Blog_area/BlogAreaENine";
+import FooterNine from "@/components/footer/FooterNine";
+import NavbarTwo from "@/components/Header/NavbarTwo";
+import ServiceAreaNine from "@/components/service_area/ServiceAreaNine";
+import TestimonialNine from "@/components/testimonial/TestimonialNine";
 import WhyChooseTwo from "@/components/WhyChooseTwo";
-import WorkProcessEight from "@/components/WorkProcessEight";
+import WorkProcessEight from "@/components/work_Process/WorkProcessEight";
 
 
 

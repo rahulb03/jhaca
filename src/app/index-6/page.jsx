@@ -1,16 +1,16 @@
-import AboutAreaEight from "@/components/AboutAreaEight";
-import BannerSeven from "@/components/BannerSeven";
-import BlogAreaSeven from "@/components/BlogAreaSeven";
+import AboutAreaEight from "@/components/About/AboutAreaEight";
+import BannerSeven from "@/components/Banner/BannerSeven";
+import BlogAreaSeven from "@/components/Blog_area/BlogAreaSeven";
 import CategoryBrowserOne from "@/components/CategoryBrowserOne";
 import CollectiblesOne from "@/components/CollectiblesOne";
 import CreatorOne from "@/components/CreatorOne";
-import FaqAreaThree from "@/components/FaqAreaThree";
-import FooterSix from "@/components/FooterSix";
-import NavbarSix from "@/components/NavbarSix";
-import ProjectAreaTwo from "@/components/ProjectAreaTwo";
+import FaqAreaThree from "@/components/faq/FaqAreaThree";
+import FooterSix from "@/components/footer/FooterSix";
+import NavbarSix from "@/components/Header/NavbarSix";
+import ProjectAreaTwo from "@/components/project/ProjectAreaTwo";
 import SellerOne from "@/components/SellerOne";
-import TestimonialSix from "@/components/TestimonialSix";
-import WorkProcessSix from "@/components/WorkProcessSix";
+import TestimonialSix from "@/components/testimonial/TestimonialSix";
+import WorkProcessSix from "@/components/work_Process/WorkProcessSix";
 
 
 
