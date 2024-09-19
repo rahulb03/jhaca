@@ -23,7 +23,7 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar Two*/}
-      <NavbarTwo />
+      {/* <NavbarTwo /> */}
 
       {/* Banner Two */}
       <BannerTwo />
@@ -53,7 +53,7 @@ const page = () => {
       <BlogAreaTwo />
 
       {/* Footer Two */}
-      <FooterTwo />
+      {/* <FooterTwo /> */}
 
 
     </>

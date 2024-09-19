@@ -10,23 +10,27 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
+import Image from 'next/image';
+import footer_logo from '../../../public/assets/img/logo.png';
+import { payLinks , services , socialMedia  , Address , Phone_number , Email_id} from '@/Config/config';
+
+// Separate data objects for services, payLinks, and socialMedia
 
 const FooterTwo = () => {
   return (
     <>
-      {/* ================== Footer Two Start ==================*/}
+      {/* ================== Footer Two Start ==================*/} 
       <footer className="footer-area footer-area-2 bg-gray mt-0 pd-top-120">
         <div className="container">
           <div className="row">
+            {/* About Section */}
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_about">
                 <div className="thumb">
-                  <img src="assets/img/logo.png" alt="img" />
+                  <Image src={footer_logo} alt="img" width={200} height={50} />
                 </div>
                 <div className="details">
-                  <p>
-                    Melbourne is simply is dumiomy is text Lorem Ipsum is simply
-                  </p>
+                  <p>Melbourne is simply is dumiomy is text Lorem Ipsum is simply</p>
                   <div className="subscribe mt-4">
                     <input type="text" placeholder="E-mail" />
                     <button>
@@ -36,123 +40,70 @@ const FooterTwo = () => {
                 </div>
               </div>
             </div>
+
+            {/* Services Section */}
             <div className="col-lg-3 col-md-6 ps-xl-5">
               <div className="widget widget_nav_menu">
-                <h4 className="widget-title">Our Service</h4>
+                <h4 className="widget-title">Our Services</h4>
                 <ul>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Ui Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Web design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Digital marketing{' '}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Video Editing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Pc Repairs
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Web Development
-                    </Link>
-                  </li>
+                  {services.map((service, index) => (
+                    <li key={index}>
+                      <Link href={service.link}>
+                        <FaChevronRight /> {service.name}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
+
+            {/* Pay Links Section */}
             <div className="col-lg-3 col-md-6 ps-xl-5">
               <div className="widget widget_nav_menu">
-                <h4 className="widget-title">Pay links</h4>
+                <h4 className="widget-title">Pay Links</h4>
                 <ul>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Credit industrys
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Reasearch sector
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Finance Sector{' '}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Credit industrys
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Reasearch sector
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaChevronRight /> Finance Sector
-                    </Link>
-                  </li>
+                  {payLinks.map((link, index) => (
+                    <li key={index}>
+                      <Link href={link.href}>
+                        <FaChevronRight /> {link.name}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
+
+            {/* Contact Us Section */}
             <div className="col-lg-3 col-md-6">
               <div className="widget widget-recent-post">
-                <h4 className="widget-title">Contact us</h4>
+                <h4 className="widget-title">Contact Us</h4>
                 <div className="widget widget_contact">
                   <ul className="details">
                     <li>
-                      <FaMapMarkedAlt />
-                      4517 Washington Ave. Manchester, Kentucky 39495
+                      <FaMapMarkedAlt /> {Address}
                     </li>
                     <li className="mt-3">
-                      <FaPhoneAlt /> (+888) 123 456 765
+                      <FaPhoneAlt /> {Phone_number}
                     </li>
                     <li className="mt-2">
-                      <FaEnvelope /> infoname@mail.com
+                      <FaEnvelope /> {Email_id}
                     </li>
                   </ul>
                   <ul className="social-media mt-4">
-                    <li>
-                      <Link href="#">
-                        <FaFacebookF />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <FaTwitter />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <FaInstagram />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <FaYoutube />
-                      </Link>
-                    </li>
+                    {socialMedia.map((social, index) => (
+                      <li key={index}>
+                        <Link href={social.href}>
+                          {social.icon}
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="footer-bottom">
           <div className="container">
             <div className="row">
@@ -168,8 +119,7 @@ const FooterTwo = () => {
           </div>
         </div>
       </footer>
-
-      {/* ================== Footer Two  end ==================*/}
+      {/* ================== Footer Two End ==================*/} 
     </>
   );
 };

@@ -140,7 +140,7 @@ import Link from 'next/link';
 import React from 'react';
 import { FaAngleDoubleRight, FaArrowRight, FaCheckCircle } from 'react-icons/fa';
 import { servicesData } from '@/data/services';
-
+import Image from 'next/image';
 
 const ServiceDetailsArea = ({ service }) => {
   return (
@@ -202,7 +202,7 @@ const ServiceDetailsArea = ({ service }) => {
                   <h4>{service.title}</h4>
                   <p>{service.description}</p>
                   <div className="thumb">
-                    <img src={service.imageSrc} alt={service.title} />
+                    <Image src={service.imageSrc} alt={service.title} />
                   </div>
                   {service.content.map((paragraph, idx) => (
                     <p key={idx}>{paragraph}</p>

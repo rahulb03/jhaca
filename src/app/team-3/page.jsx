@@ -19,7 +19,7 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Breadcrumb */}
       <Breadcrumb title={'Team 03'} />
@@ -31,7 +31,7 @@ const page = () => {
       <WorkProcessOne /> 
 
       {/* Footer One */}
-      <FooterOne />
+      {/* <FooterOne /> */}
 
     </>
   );

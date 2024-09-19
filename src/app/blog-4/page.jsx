@@ -18,7 +18,7 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Navigation Bar */}
       <Breadcrumb title={'Blog 04'} />
@@ -27,7 +27,7 @@ const page = () => {
       <BlogGroupFour />
 
       {/* Footer One */}
-      <FooterOne />
+      {/* <FooterOne /> */}
 
     </>
   );

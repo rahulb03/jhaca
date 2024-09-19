@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import footer_logo from '../../../public/assets/img/logo2.png';
 import {
   FaArrowRight,
   FaCalendarAlt,
@@ -10,6 +11,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
+import Image from 'next/image';
 
 const FooterOne = () => {
   return (
@@ -41,7 +43,7 @@ const FooterOne = () => {
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_about">
                 <div className="thumb">
-                  <img src="assets/img/logo2.png" alt="img" />
+                  <Image src={footer_logo} alt="img" />
                 </div>
                 <div className="details">
                   <p>

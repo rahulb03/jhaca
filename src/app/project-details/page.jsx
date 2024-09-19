@@ -16,7 +16,7 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Navigation Bar */}
       <Breadcrumb title={'Project Details'} />
@@ -25,7 +25,7 @@ const page = () => {
       <CaseStudyArea />
 
       {/* Footer One */}
-      <FooterOne />
+      {/* <FooterOne /> */}
 
     </>
   );

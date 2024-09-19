@@ -28,7 +28,7 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavbarThree />
+      {/* <NavbarThree /> */}
 
       {/* Banner Four */}
       <BannerFour />
@@ -68,7 +68,7 @@ const page = () => {
       <BrandAreaOne />
 
       {/* Footer Three */}
-      <FooterThree />
+      {/* <FooterThree /> */}
 
     </>
   );

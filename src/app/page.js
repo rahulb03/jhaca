@@ -9,12 +9,12 @@ import PricingAreaThree from "@/components/pricing_area/PricingAreaThree";
 import ServiceAreaThree from "@/components/service_area/ServiceAreaThree";
 import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
 import WorkProcessThree from "@/components/work_Process/WorkProcessThree";
-
+import { WEBSITE_NAME } from "@/Config/config";
 
 
 
 export const metadata = {
-  title: "JHA CONSULTANCY",
+  title: `${WEBSITE_NAME}`,
   description:
 " consultancy services"
     ,
@@ -26,7 +26,7 @@ const page = () => {
     <>
 
       {/* Navigation Bar*/}
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Banner Three*/}
       <BannerThree />
@@ -56,7 +56,7 @@ const page = () => {
       <BlogAreaThree />
 
       {/* Footer Two */}
-      <FooterTwo />
+      {/* <FooterTwo /> */}
 
     </>
   );

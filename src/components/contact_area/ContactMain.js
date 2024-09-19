@@ -2,6 +2,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast, Toaster } from 'react-hot-toast';
+import { Address, Email_id, Phone_number , IframeSrc } from '@/Config/config';
 const ContactMain = () => {
   const form = useRef();
 
@@ -122,7 +123,7 @@ const ContactMain = () => {
                   </div>
                   <div className="media-body">
                     <h5>Contacts us</h5>
-                    <h6>88 01234 2345 12</h6>
+                    <h6>{Phone_number}</h6>
                   </div>
                 </div>
               </div>
@@ -133,7 +134,7 @@ const ContactMain = () => {
                   </div>
                   <div className="media-body">
                     <h5>Your Email</h5>
-                    <h6>Comism@mail.com</h6>
+                    <h6>{Email_id}</h6>
                   </div>
                 </div>
               </div>
@@ -144,7 +145,7 @@ const ContactMain = () => {
                   </div>
                   <div className="media-body">
                     <h5>Location</h5>
-                    <h6>99 united,America</h6>
+                    <h6>{Address}</h6>
                   </div>
                 </div>
               </div>
@@ -155,7 +156,7 @@ const ContactMain = () => {
         {/* map start */}
         <div className="contact-g-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29208.601361499546!2d90.3598076!3d23.7803374!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1589109092857!5m2!1sen!2sbd"
+            src={IframeSrc}
             title="new title"
           />
         </div>

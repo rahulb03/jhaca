@@ -2,6 +2,10 @@
 import React, { useEffect, useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
+import header_logo from '../../../public/assets/img/logo.png'; 
+import phone_icon from '../../../public/assets/img/icon/1.png'; 
+import { Phone_number } from '@/Config/config';
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -85,7 +89,7 @@ const NavBar = () => {
           </div>
           <div className="logo">
             <Link href="/index-3">
-              <img src="assets/img/logo.png" alt="img" />
+              <Image src={header_logo} alt="img" />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
@@ -142,6 +146,7 @@ const NavBar = () => {
               <li  className="menu-item-has-children">
                 <Link href="#">service</Link>
                 <ul className="sub-menu">
+                
                   <li>
                     <Link href="/about">home Loan</Link>
                   </li>
@@ -194,7 +199,7 @@ const NavBar = () => {
               </li> 
 
 
-              {/* <li className="menu-item-has-children mega-menu">
+              <li className="menu-item-has-children mega-menu">
                 <Link href="#">Mega Menu</Link>
                 <div className="sub-menu">
                   <div className="row">
@@ -300,11 +305,11 @@ const NavBar = () => {
                     </div>
                   </div>
                 </div>
-              </li> */}
+              </li>
 
               <li className="menu-item-has-children">
                 <Link href="#">Loan Calculator</Link>
-                {/* <ul className="sub-menu">
+                <ul className="sub-menu">
                   <li>
                     <Link href="/blog">Blog 01</Link>
                   </li>
@@ -320,7 +325,7 @@ const NavBar = () => {
                   <li>
                     <Link href="/blog-details">Blog Details</Link>
                   </li>
-                </ul> */}
+                </ul>
               </li>
               <li>
                 <Link href="/about">About Us</Link>
@@ -333,10 +338,10 @@ const NavBar = () => {
           <div className="nav-right-part nav-right-part-desktop align-self-center">
             <a className="navbar-phone" href="tel:">
               <span className="icon">
-                <img src="assets/img/icon/1.png" alt="img" />
+                <Image src={phone_icon} alt="img" />
               </span>
               <span>Need help?</span>
-              <h5>(808) 555-0111</h5>
+              <h5>{Phone_number}</h5>
             </a>
           </div>
         </div>

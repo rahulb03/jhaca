@@ -3,23 +3,26 @@ import FooterOne from "@/components/footer/FooterOne";
 import NavBar from "@/components/Header/NavBar";
 import PricingAreaOne from "@/components/pricing_area/PricingAreaOne";
 import ServiceAreaGroup from "@/components/service_area/ServiceAreaGroup";
+import { WEBSITE_NAME } from "@/Config/config";
 
 
 
 
 
 export const metadata = {
-  title: "Service || AglieTech - IT Solutions & Technology NEXT JS Template",
+  title: `Service || ${WEBSITE_NAME}`,
   description:
-    "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
-};
+    // "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
+    ""
+  };
+
 
 
 const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Navigation Bar */}
       <Breadcrumb title={'Service'} />
@@ -31,7 +34,7 @@ const page = () => {
       <PricingAreaOne />
 
       {/* Footer One */}
-      <FooterOne />
+      {/* <FooterOne /> */}
 
     </>
   );

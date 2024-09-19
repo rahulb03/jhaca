@@ -8,12 +8,12 @@ import NavBar from "@/components/Header/NavBar";
 import ServiceAreaOne from "@/components/service_area/ServiceAreaOne";
 import TeamAreaOne from "@/components/team_area/TeamAreaOne";
 import WorkProcessOne from "@/components/work_Process/WorkProcessOne";
-
-
+import  Title  from "@/Config/config";
+import { WEBSITE_NAME } from "@/Config/config";
 
 
 export const metadata = {
-  title: "About ||  - IT Solutions & Technology NEXT JS Template",
+  title: `About || ${WEBSITE_NAME}`,
   description:
     "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
 };
@@ -23,7 +23,7 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Navigation Bar */}
       <Breadcrumb title={'About Us'} />
@@ -50,7 +50,7 @@ const page = () => {
       <WorkProcessOne />
 
       {/* Footer One */}
-      <FooterOne />
+      {/* <FooterOne /> */}
 
     </>
   );

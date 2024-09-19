@@ -1,4 +1,4 @@
-
+import image from '../../public/assets/img/service/7.png'
 
 export const services = [
   {
@@ -46,7 +46,7 @@ export const contentData = {
         title: 'Home Loan Services',
         description: `Get the best home loan solutions to build your dream home. Our flexible payment plans ensure you can manage your finances easily.`,
         // imageSrc: 'assets/img/service/home-loan.png',
-        imageSrc: 'assets/img/service/7.png',
+        imageSrc: image,
   
         content: [
           `We offer competitive interest rates and flexible repayment options for home loans. Whether you're building or buying, we can assist.`,
@@ -74,7 +74,7 @@ export const contentData = {
         title: 'Education Loan Services',
         description: `Invest in your future with our education loans. We offer financial support to help you achieve academic excellence.`,
         // imageSrc: 'assets/img/service/education-loan.png',
-        imageSrc: 'assets/img/service/7.png',
+        imageSrc:image,
   
         content: [
           `Our education loans come with low-interest rates, flexible repayment terms, and minimal documentation.`,
@@ -102,7 +102,7 @@ export const contentData = {
         title: 'Business Loan Services',
         description: `Expand your business with our tailor-made business loan solutions. Get financial backing to achieve your goals.`,
         // imageSrc: 'assets/img/service/business-loan.png',
-        imageSrc: 'assets/img/service/7.png',
+        imageSrc:image,
         content: [
           `Our business loans are designed for small and medium-sized enterprises, offering quick approval and minimal paperwork.`,
           `Grow your business without financial constraints by leveraging our competitive interest rates and flexible terms.`
@@ -129,7 +129,7 @@ export const contentData = {
         title: 'Mortgage Loan Services',
         description: `Secure your property with our mortgage loans. Benefit from low-interest rates and flexible repayment schedules.`,
         // imageSrc: 'assets/img/service/mortgage-loan.png',
-        imageSrc: 'assets/img/service/7.png',
+        imageSrc:image,
   
   
         content: [
@@ -158,7 +158,7 @@ export const contentData = {
         title: 'Vehicle Loan Services',
         description: `Drive your dream vehicle with our easy and affordable vehicle loans. Choose the right plan to suit your budget.`,
         // imageSrc: 'assets/img/service/vehicle-loan.png',
-        imageSrc: 'assets/img/service/7.png',
+        imageSrc:image,
   
         content: [
           `We offer financing for a wide range of vehicles, from personal cars to commercial fleets, with quick approval processes.`,
@@ -186,7 +186,7 @@ export const contentData = {
         title: 'Personal Loan Services',
         description: `Get financial support for your personal needs with our flexible personal loan plans. No collateral required.`,
         // imageSrc: 'assets/img/service/personal-loan.png',
-        imageSrc: 'assets/img/service/7.png',
+        imageSrc:image,
   
         content: [
           `Whether it's for medical emergencies, travel, or home renovation, our personal loans provide fast access to funds.`,
@@ -220,12 +220,12 @@ export const contentData = {
   
 export const servicesData = {
   servicesList: [
-    { name: 'Home Loan', link: '/service-details/home', id: 'home' },
-    { name: 'Education Loan', link: '/service-details/education', id: 'education' },
-    { name: 'Business Loan', link: '/service-details/business', id: 'business' },
-    { name: 'Mortgage Loan', link: '/service-details/mortgage', id: 'mortgage' },
-    { name: 'Vehicle Loan', link: '/service-details/vehicle', id: 'vehicle' },
-    { name: 'Personal Loan', link: '/service-details/personal', id: 'personal' }
+    { name: 'Home Loan', link: '/service-details/home-loan', id: 'home' },
+    { name: 'Education Loan', link: '/service-details/education-loan', id: 'education' },
+    { name: 'Business Loan', link: '/service-details/business-loan', id: 'business' },
+    { name: 'Mortgage Loan', link: '/service-details/mortgage-loan', id: 'mortgage' },
+    { name: 'Vehicle Loan', link: '/service-details/vehicle-loan', id: 'vehicle' },
+    { name: 'Personal Loan', link: '/service-details/personal-loan', id: 'personal' }
   ],
   companyDetails: {
     imageSrc: 'assets/img/about/9.png',
