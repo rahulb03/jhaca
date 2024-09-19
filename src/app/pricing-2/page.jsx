@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
-import PriceAreaThree from "@/components/PriceAreaThree";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
+import PriceAreaThree from "@/components/pricing_area/PriceAreaThree";
 
 
 

@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import CaseStudyArea from "@/components/CaseStudyArea";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
+import CaseStudyArea from "@/components/case_study/CaseStudyArea";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
 
 
 

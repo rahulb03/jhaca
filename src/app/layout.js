@@ -2,6 +2,7 @@ import BootstrapInit from "@/helper/BootstrapInit";
 import "react-modal-video/scss/modal-video.scss";
 import "./font.css";
 import "./globals.scss";
+import '../../public/styles/global.css';
 
 export const metadata = {
   title: "Service || AglieTech - IT Solutions & Technology NEXT JS Template",

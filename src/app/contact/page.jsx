@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import ContactMain from "@/components/ContactMain";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
+import ContactMain from "@/components/contact_area/ContactMain";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
 
 
 

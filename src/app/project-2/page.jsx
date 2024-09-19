@@ -1,10 +1,10 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import ContactAreaOne from "@/components/ContactAreaOne";
-import CounterAreaOne from "@/components/CounterAreaOne";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
-import ProjectAreaOne from "@/components/ProjectAreaOne";
-import TeamAreaOne from "@/components/TeamAreaOne";
+import ContactAreaOne from "@/components/contact_area/ContactAreaOne";
+import CounterAreaOne from "@/components/contact_area/CounterAreaOne";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
+import ProjectAreaOne from "@/components/project/ProjectAreaOne";
+import TeamAreaOne from "@/components/team_area/TeamAreaOne";
 
 
 

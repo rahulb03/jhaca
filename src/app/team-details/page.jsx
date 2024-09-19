@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
-import TeamDetailsGroup from "@/components/TeamDetailsGroup";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
+import TeamDetailsGroup from "@/components/team_area/TeamDetailsGroup";
 
 
 

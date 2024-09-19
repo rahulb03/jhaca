@@ -1,10 +1,10 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import CaseStudyAreaGroupOne from "@/components/CaseStudyAreaGroupOne";
-import ContactAreaOne from "@/components/ContactAreaOne";
-import CounterAreaOne from "@/components/CounterAreaOne";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
-import TeamAreaOne from "@/components/TeamAreaOne";
+import CaseStudyAreaGroupOne from "@/components/case_study/CaseStudyAreaGroupOne";
+import ContactAreaOne from "@/components/contact_area/ContactAreaOne";
+import CounterAreaOne from "@/components/contact_area/CounterAreaOne";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
+import TeamAreaOne from "@/components/team_area/TeamAreaOne";
 
 
 

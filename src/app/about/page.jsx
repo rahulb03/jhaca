@@ -1,13 +1,13 @@
-import AboutAreaOne from "@/components/AboutAreaOne";
+import AboutAreaOne from "@/components/About/AboutAreaOne";
 import Breadcrumb from "@/components/Breadcrumb";
-import ContactAreaOne from "@/components/ContactAreaOne";
-import CounterAreaOne from "@/components/CounterAreaOne";
-import FaqAreaOne from "@/components/FaqAreaOne";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
-import ServiceAreaOne from "@/components/ServiceAreaOne";
-import TeamAreaOne from "@/components/TeamAreaOne";
-import WorkProcessOne from "@/components/WorkProcessOne";
+import ContactAreaOne from "@/components/contact_area/ContactAreaOne";
+import CounterAreaOne from "@/components/contact_area/CounterAreaOne";
+import FaqAreaOne from "@/components/faq/FaqAreaOne";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
+import ServiceAreaOne from "@/components/service_area/ServiceAreaOne";
+import TeamAreaOne from "@/components/team_area/TeamAreaOne";
+import WorkProcessOne from "@/components/work_Process/WorkProcessOne";
 
 
 

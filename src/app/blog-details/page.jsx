@@ -1,7 +1,7 @@
-import BlogDetailsArea from "@/components/BlogDetailsArea";
+import BlogDetailsArea from "@/components/Blog_area/BlogDetailsArea";
 import Breadcrumb from "@/components/Breadcrumb";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
 
 
 

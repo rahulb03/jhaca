@@ -1,14 +1,14 @@
-import AboutAreaThree from "@/components/AboutAreaThree";
-import BannerThree from "@/components/BannerThree";
-import BlogAreaThree from "@/components/BlogAreaThree";
-import ContactAreaThree from "@/components/ContactAreaThree";
-import CounterAreaThree from "@/components/CounterAreaThree";
-import FooterTwo from "@/components/FooterTwo";
-import NavBar from "@/components/NavBar";
-import PricingAreaThree from "@/components/PricingAreaThree";
-import ServiceAreaThree from "@/components/ServiceAreaThree";
-import TestimonialTwo from "@/components/TestimonialTwo";
-import WorkProcessThree from "@/components/WorkProcessThree";
+import AboutAreaThree from "@/components/About/AboutAreaThree";
+import BannerThree from "@/components/Banner/BannerThree";
+import BlogAreaThree from "@/components/Blog_area/BlogAreaThree";
+import ContactAreaThree from "@/components/contact_area/ContactAreaThree";
+import CounterAreaThree from "@/components/contact_area/CounterAreaThree";
+import FooterTwo from "@/components/footer/FooterTwo";
+import NavBar from "@/components/Header/NavBar";
+import PricingAreaThree from "@/components/pricing_area/PricingAreaThree";
+import ServiceAreaThree from "@/components/service_area/ServiceAreaThree";
+import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
+import WorkProcessThree from "@/components/work_Process/WorkProcessThree";
 
 
 

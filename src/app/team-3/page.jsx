@@ -1,8 +1,8 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
-import TeamAreaGroupThree from "@/components/TeamAreaGroupThree";
-import WorkProcessOne from "@/components/WorkProcessOne";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
+import TeamAreaGroupThree from "@/components/team_area/TeamAreaGroupThree";
+import WorkProcessOne from "@/components/work_Process/WorkProcessOne";
 
 
 
