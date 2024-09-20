@@ -38,7 +38,7 @@ const page = () => {
       <AboutAreaThree />
 
       {/* Pricing Area Three */}
-      <PricingAreaThree />
+      {/* <PricingAreaThree /> */}
 
       {/* Contact Area Three */}
       <ContactAreaThree />

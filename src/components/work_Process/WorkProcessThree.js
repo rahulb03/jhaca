@@ -1,4 +1,5 @@
 import React from "react";
+import { workProcesses } from "@/data/work-process";
 
 const WorkProcessThree = () => {
   return (
@@ -17,38 +18,18 @@ const WorkProcessThree = () => {
             </div>
           </div>
           <div className='row'>
-            <div className='col-lg-3 col-md-6'>
-              <div className='single-work-process-inner-3 text-center'>
-                <h2 className='process-count mb-2 color-base'>01.</h2>
-                <h5 className='mb-4'>Zero to app in no time</h5>
-                <img src='assets/img/testimonial/6.png' alt='img' />
+            {workProcesses.map((process) => (
+              <div className='col-lg-3 col-md-6' key={process.id}>
+                <div className='single-work-process-inner-3 text-center'>
+                  <h2 className='process-count mb-2 color-base'>{process.id.toString().padStart(2, '0')}.</h2>
+                  <h5 className='mb-4'>{process.title}</h5>
+                  <img src={process.image} alt={`Process ${process.id}`} />
+                </div>
               </div>
-            </div>
-            <div className='col-lg-3 col-md-6'>
-              <div className='single-work-process-inner-3 text-center'>
-                <h2 className='process-count mb-2 color-base'>02.</h2>
-                <h5 className='mb-4'>Zero to app in no time</h5>
-                <img src='assets/img/testimonial/7.png' alt='img' />
-              </div>
-            </div>
-            <div className='col-lg-3 col-md-6'>
-              <div className='single-work-process-inner-3 text-center'>
-                <h2 className='process-count mb-2 color-base'>03.</h2>
-                <h5 className='mb-4'>Zero to app in no time</h5>
-                <img src='assets/img/testimonial/8.png' alt='img' />
-              </div>
-            </div>
-            <div className='col-lg-3 col-md-6'>
-              <div className='single-work-process-inner-3 text-center'>
-                <h2 className='process-count mb-2 color-base'>04.</h2>
-                <h5 className='mb-4'>Zero to app in no time</h5>
-                <img src='assets/img/testimonial/9.png' alt='img' />
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
-
       {/* ==================== Work Process Three end ====================*/}
     </>
   );

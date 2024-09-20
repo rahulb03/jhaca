@@ -1,4 +1,5 @@
 import React from "react";
+import { contactData } from "@/data/contact";
 
 const ContactAreaThree = () => {
   return (
@@ -8,7 +9,7 @@ const ContactAreaThree = () => {
         <div className='contact-inner-1 contact-inner-2'>
           <div className='row'>
             <div
-              className='col-lg-6 '
+              className='col-lg-6'
               data-aos='fade-right'
               data-aos-delay='200'
               data-aos-duration='1500'
@@ -26,48 +27,22 @@ const ContactAreaThree = () => {
                 <h2 className='title mb-4'>
                   Smarter Applications For The <span>Smarter</span> Individuals
                 </h2>
-                <div className='media mb-3'>
-                  <div className='media-left me-3'>
-                    <img src='assets/img/icon/26.svg' alt='img' />
+                {contactData.map((item, index) => (
+                  <div className='media mb-3' key={index}>
+                    <div className='media-left me-3'>
+                      <img src={item.icon} alt='img' />
+                    </div>
+                    <div className='media-body'>
+                      <h5>{item.title}</h5>
+                      <p className='mb-0'>{item.description}</p>
+                    </div>
                   </div>
-                  <div className='media-body'>
-                    <h5>Felis in quam volutpat </h5>
-                    <p className='mb-0'>
-                      Lorem ipsum dolor consectetur notte massa sapien samet.
-                      Aucibus sed sem non, mattis commodo nisi.
-                    </p>
-                  </div>
-                </div>
-                <div className='media mb-3'>
-                  <div className='media-left me-3'>
-                    <img src='assets/img/icon/26.svg' alt='img' />
-                  </div>
-                  <div className='media-body'>
-                    <h5>Sed mi et in neque mattis</h5>
-                    <p className='mb-0'>
-                      Lorem ipsum dolor consectetur notte massa sapien samet.
-                      Aucibus sed sem non, mattis commodo nisi.
-                    </p>
-                  </div>
-                </div>
-                <div className='media'>
-                  <div className='media-left me-3'>
-                    <img src='assets/img/icon/26.svg' alt='img' />
-                  </div>
-                  <div className='media-body'>
-                    <h5>Commodo adipiscing </h5>
-                    <p className='mb-0'>
-                      Lorem ipsum dolor consectetur notte massa sapien samet.
-                      Aucibus sed sem non, mattis commodo nisi.
-                    </p>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </div>
-
       {/*========================= contact-inner Three end =========================*/}
     </>
   );

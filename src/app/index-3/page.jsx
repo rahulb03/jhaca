@@ -38,11 +38,12 @@ const page = () => {
       <AboutAreaThree />
 
       {/* Pricing Area Three */}
-      <PricingAreaThree />
+      {/* <PricingAreaThree /> */}
 
       {/* Contact Area Three */}
+      <div className=" " >
       <ContactAreaThree />
-
+</div>
       {/* Testimonial Two */}
       <TestimonialTwo />
 

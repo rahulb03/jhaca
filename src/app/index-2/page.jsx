@@ -35,7 +35,7 @@ const page = () => {
       <ServiceAreaTwo />
 
       {/* Pricing Area Two */}
-      <PricingAreaTwo />
+      {/* <PricingAreaTwo /> */}
 
       {/* Counter Area Two */}
       <CounterAreaTwo />

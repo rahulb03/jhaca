@@ -1,50 +1,10 @@
-// import Breadcrumb from "@/components/Breadcrumb";
-// import FooterOne from "@/components/footer/FooterOne";
-// import NavBar from "@/components/Header/NavBar";
-// import ServiceDetailsArea from "@/components/service_area/ServiceDetailsArea";
-// import { WEBSITE_NAME } from "@/Config/config";
 
-
-
-
-// export const metadata = {
-//   title: ` `,
-//   description:
-//     // "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
-//     " "
-// };
-
-
-// const page = () => {
-//   return (
-//     <>
-//       {/* Navigation Bar */}
-//       {/* <NavBar /> */}
-
-//       {/* Navigation Bar */}
-//       {/* <Breadcrumb title={"Service Details"} /> */}
-
-//       {/* Service Details Area */}
-//       <ServiceDetailsArea />
-
-//       {/* Footer One */}
-//       {/* <FooterOne /> */}
-
-//     </>
-//   );
-// };
-
-// export default page;
-
-
-
-// Import components and constants
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterOne from "@/components/footer/FooterOne";
 import NavBar from "@/components/Header/NavBar";
 import ServiceDetailsArea from "@/components/service_area/ServiceDetailsArea";
 import { WEBSITE_NAME } from "@/Config/config";
-import { contentData } from '@/data/services'; // Adjust import path as needed
+import { contentData } from '@/data/service-details'; // Adjust import path as needed
 
 // Function to generate dynamic metadata
 export async function generateMetadata({ params }) {
@@ -78,7 +38,7 @@ const Page = ({ params }) => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Breadcrumb */}
       <Breadcrumb title={service.title || "Service Details"} />
@@ -87,7 +47,7 @@ const Page = ({ params }) => {
       <ServiceDetailsArea service={service} />
 
       {/* Footer One */}
-      <FooterOne />
+      {/* <FooterOne /> */}
     </>
   );
 };

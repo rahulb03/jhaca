@@ -12,8 +12,8 @@ import {
 } from 'react-icons/fa';
 import Image from 'next/image';
 import footer_logo from '../../../public/assets/img/logo.png';
-import { payLinks , services , socialMedia  , Address , Phone_number , Email_id} from '@/Config/config';
-
+import { Address , Phone_number , Email_id} from '@/Config/config';
+import { services , payLinks , socialMedia } from '@/data/footer';
 // Separate data objects for services, payLinks, and socialMedia
 
 const FooterTwo = () => {
@@ -60,7 +60,7 @@ const FooterTwo = () => {
             {/* Pay Links Section */}
             <div className="col-lg-3 col-md-6 ps-xl-5">
               <div className="widget widget_nav_menu">
-                <h4 className="widget-title">Pay Links</h4>
+                <h4 className="widget-title">Legal Services</h4>
                 <ul>
                   {payLinks.map((link, index) => (
                     <li key={index}>
