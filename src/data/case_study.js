@@ -38,7 +38,19 @@ export const mainContent = [
                     "If you have any questions regarding the income tax filing process or require assistance, don't hesitate to reach out to our team."
                 ]
             }
-        ]
+        ] ,
+        highlights: [
+            [
+              { text: 'Accurate Filing', icon: 'FaCheckCircle' },
+              { text: 'Maximized Deductions', icon: 'FaCheckCircle' },
+              { text: 'Secure Data Handling', icon: 'FaCheckCircle' }
+            ],
+            [
+              { text: 'Experienced Advisors', icon: 'FaCheckCircle' },
+              { text: 'Audit Assistance', icon: 'FaCheckCircle' },
+              { text: 'Timely Filing', icon: 'FaCheckCircle' }
+            ]
+          ]
     },
     {
         id: "audit-services",
@@ -64,7 +76,19 @@ export const mainContent = [
                     "Reach out to us for any inquiries regarding our audit services or to schedule a consultation."
                 ]
             }
-        ]
+        ] ,
+        highlights: [
+            [
+              { text: 'Detailed Reports', icon: 'FaCheckCircle' },
+              { text: 'Compliance Checks', icon: 'FaCheckCircle' },
+              { text: 'Efficiency Improvement', icon: 'FaCheckCircle' }
+            ],
+            [
+              { text: 'Risk Mitigation', icon: 'FaCheckCircle' },
+              { text: 'Tailored Solutions', icon: 'FaCheckCircle' },
+              { text: 'Objective Review', icon: 'FaCheckCircle' }
+            ]
+          ]
     },
     {
         id: "company-registration",
@@ -90,7 +114,19 @@ export const mainContent = [
                     "Contact us today to discuss how we can assist with your company registration."
                 ]
             }
-        ]
+        ] ,
+        highlights: [
+      [
+        { text: 'Fast Registration', icon: 'FaCheckCircle' },
+        { text: 'Legal Compliance', icon: 'FaCheckCircle' },
+        { text: 'Expert Support', icon: 'FaCheckCircle' }
+      ],
+      [
+        { text: 'Ongoing Compliance', icon: 'FaCheckCircle' },
+        { text: 'Post-Registration Help', icon: 'FaCheckCircle' },
+        { text: 'Seamless Process', icon: 'FaCheckCircle' }
+      ]
+    ]
     },
     {
         id: "gst-return-filing",
@@ -116,7 +152,19 @@ export const mainContent = [
                     "If you have questions regarding GST or need assistance, reach out to our expert team."
                 ]
             }
-        ]
+        ] ,
+        highlights: [
+            [
+              { text: 'Accurate Filings', icon: 'FaCheckCircle' },
+              { text: 'Compliance Guaranteed', icon: 'FaCheckCircle' },
+              { text: 'Tax Advisory Services', icon: 'FaCheckCircle' }
+            ],
+            [
+              { text: 'Latest GST Laws', icon: 'FaCheckCircle' },
+              { text: 'Minimized Penalties', icon: 'FaCheckCircle' },
+              { text: 'Timely Submissions', icon: 'FaCheckCircle' }
+            ]
+          ]
     },
     {
         id: "trademark-registration",
@@ -142,7 +190,19 @@ export const mainContent = [
                     "Contact us for assistance with trademark registration or to learn more about how to protect your brand."
                 ]
             }
-        ]
+        ] ,
+        highlights: [
+            [
+              { text: 'Brand Protection', icon: 'FaCheckCircle' },
+              { text: 'Trademark Searches', icon: 'FaCheckCircle' },
+              { text: 'Monitoring Services', icon: 'FaCheckCircle' }
+            ],
+            [
+              { text: 'Infringement Alerts', icon: 'FaCheckCircle' },
+              { text: 'Expert Legal Advice', icon: 'FaCheckCircle' },
+              { text: 'Affordable Pricing', icon: 'FaCheckCircle' }
+            ]
+          ]
     },
     {
         id: "account-management",
@@ -168,7 +228,19 @@ export const mainContent = [
                     "If you need help with account management or have any questions, please contact our team."
                 ]
             }
-        ]
+        ] ,
+        highlights: [
+            [
+              { text: 'Bookkeeping Services', icon: 'FaCheckCircle' },
+              { text: 'Financial Reporting', icon: 'FaCheckCircle' },
+              { text: 'Tailored Solutions', icon: 'FaCheckCircle' }
+            ],
+            [
+              { text: 'Experienced Accountants', icon: 'FaCheckCircle' },
+              { text: 'Business Growth Support', icon: 'FaCheckCircle' },
+              { text: 'Resource Optimization', icon: 'FaCheckCircle' }
+            ]
+          ]
     },
     {
         id: "good-service-compliance",
@@ -194,6 +266,18 @@ export const mainContent = [
                     "For inquiries about compliance services or to schedule a consultation, reach out to us today."
                 ]
             }
-        ]
+        ] ,
+        highlights: [
+      [
+        { text: 'Compliance Audits', icon: 'FaCheckCircle' },
+        { text: 'Risk Assessments', icon: 'FaCheckCircle' },
+        { text: 'Ongoing Support', icon: 'FaCheckCircle' }
+      ],
+      [
+        { text: 'Regulatory Updates', icon: 'FaCheckCircle' },
+        { text: 'Tailored Compliance Plans', icon: 'FaCheckCircle' },
+        { text: 'Penalty Reduction', icon: 'FaCheckCircle' }
+      ]
+    ]
     }
 ];

@@ -3,6 +3,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { FaCheckCircle, FaPlus } from "react-icons/fa";
 import { aboutData } from "@/data/about";
+import Image from "next/image";
 
 const AboutAreaThree = () => {
   const leftListItems = aboutData.listItems.slice(0, 2);
@@ -51,12 +52,12 @@ const AboutAreaThree = () => {
             </div>
           </div>
         </div>
-        <div className='bg-base client-border-radius p-xl-5 p-3 mt-5'>
+        <div className='bg-white client-border-radius p-xl-5 p-3 mt-5'>
           <div className='client-slider'>
             <Marquee gradient={false}>
               {aboutData.clients.map((client, index) => (
                 <div className='thumb' key={index}>
-                  <img src={client.imgSrc} alt={client.alt} />
+                  <Image src={client.imgSrc} alt={client.alt} width={50} height={50} />
                 </div>
               ))}
             </Marquee>

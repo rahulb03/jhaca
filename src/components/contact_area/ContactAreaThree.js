@@ -23,10 +23,15 @@ const ContactAreaThree = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mb-0'>
-                <h6 className='sub-title'>GET IN TOUCH</h6>
+                {/* <h6 className='sub-title'>GET IN TOUCH</h6>
                 <h2 className='title mb-4'>
                   Smarter Applications For The <span>Smarter</span> Individuals
-                </h2>
+                </h2> */}
+                <h6 className='sub-title'>CONTACT US</h6>
+<h2 className='title mb-4'>
+  We're Here to Help! Reach Out for <span>Assistance</span>
+</h2>
+
                 {contactData.map((item, index) => (
                   <div className='media mb-3' key={index}>
                     <div className='media-left me-3'>

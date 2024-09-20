@@ -21,20 +21,23 @@ const ServiceAreaOne = () => {
             </h2>
           </div>
           <div className='row'>
-            {serviceList.slice(0, 3).map((data, index) => (
-              <div className='col-lg-4 col-md-6' key={index}>
-                <div className='single-service-inner text-center'>
+            {serviceList.slice(0, 3).map((service, index) => (
+              <div key={index} className='col-lg-4 col-md-6'>
+                <div className='single-service-inner style-3'>
                   <div className='thumb'>
-                    <img src={data.img} alt='img' />
+                    <img src={service.imgSrc} alt={service.title} />
                   </div>
                   <div className='details'>
-                    <h5>
-                      <Link href='/service-details'>{data.title}</Link>
-                    </h5>
-                    <p>{data.des}</p>
-                    <Link className='btn btn-border-base' href='/service-details'>
-                      Touch More <FaPlus />
-                    </Link>
+
+                          <h5>
+                      <Link href={`/service-details/${service.slug}`}>{service.title}</Link>
+                            </h5>
+                            <p>{service.description}</p>
+
+                      <Link className='read-more-text' href={`/service-details/${service.slug}`}>
+                        Touch More <FaPlus />
+                      </Link>
+
                   </div>
                 </div>
               </div>

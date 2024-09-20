@@ -27,7 +27,10 @@ const FooterTwo = () => {
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_about">
                 <div className="thumb">
-                  <Image src={footer_logo} alt="img" width={200} height={50} />
+                <Link href="/home" >
+                  <Image src={footer_logo} alt="img" width={200} height={50} /> 
+</Link>
+                  
                 </div>
                 <div className="details">
                   <p>Melbourne is simply is dumiomy is text Lorem Ipsum is simply</p>

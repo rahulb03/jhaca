@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaPlus } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
-
+import image from '../../../public/assets/img/banner-3/5.png';
 const BannerThree = () => {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -11,7 +11,7 @@ const BannerThree = () => {
       {/* ================== BannerThree Start ==================*/}
       <div
         className="banner-area bg-relative banner-area-2 bg-cover"
-        style={{ backgroundImage: 'url("./assets/img/banner-3/5.png")' }}
+        style={{ backgroundImage: `url(${image.src})` }}
       >
         <img className="bg-img-2" src="assets/img/banner-3/4.png" alt="img" />
         <div className="container">

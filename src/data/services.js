@@ -1,41 +1,39 @@
 //home page services
 
-import image from '../../public/assets/img/service/7.png'
-
 export const services = [
   {
     title: "Personal Loan",
-    description: "You can access SaaS applications through a web browser or mobile app, as long as you have",
+    description: "Access funds for personal expenses like medical bills, vacations, or debt consolidation.",
     imgSrc: "assets/img/service-icon/1.png",
-    slug: "personal-loan"  // New slug for dynamic route
+    slug: "personal-loan"
   },
   {
     title: "Business Loan",
-    description: "SaaS can benefit your business by reducing costs associated with software installation and",
+    description: "Obtain financing to start or grow your business, covering expenses like inventory and equipment.",
     imgSrc: "assets/img/service-icon/2.png",
     slug: "business-loan"
   },
   {
     title: "Home Loan",
-    description: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
+    description: "Finance the purchase of your new home with competitive interest rates ,  flexible terms and policies .",
     imgSrc: "assets/img/service-icon/3.png",
     slug: "home-loan"
   },
   {
     title: "Education Loan",
-    description: "Finance your education with flexible repayment options and competitive interest rates.",
+    description: "Fund your education with low-interest loans designed for students with flexible repayment options.",
     imgSrc: "assets/img/service-icon/1.png",
     slug: "education-loan"
   },
   {
     title: "Mortgage Loan",
-    description: "Secure a mortgage loan with favorable terms to buy your dream home.",
+    description: "Get a mortgage to purchase your dream home with favorable terms and long repayment periods.",
     imgSrc: "assets/img/service-icon/1.png",
     slug: "mortgage-loan"
   },
   {
     title: "Vehicle Loan",
-    description: "Get on the road with a vehicle loan tailored to your needs and budget.",
+    description: "Finance your new or used vehicle with tailored loan options to fit your budget and needs.",
     imgSrc: "assets/img/service-icon/1.png",
     slug: "vehicle-loan"
   }

@@ -14,7 +14,7 @@ import { WEBSITE_NAME } from "@/Config/config";
 
 
 export const metadata = {
-  title: `${WEBSITE_NAME}`,
+  title: `Home ||  ${WEBSITE_NAME}`,
   description:
 " consultancy services"
     ,

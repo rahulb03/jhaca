@@ -1,56 +1,50 @@
-export const menuItems = [
-    { title: 'Home', path: '/index-3' },
-    { 
-      title: 'Service', 
-      subMenu: [
-        { title: 'Income Tax Return', path: '/legal-services/income-tax-return' },
-    { title: 'Audit', path: '/legal-services/audit-services' },
-    { title: 'Company Registration', path: '/legal-services/company-registration' },
-    { title: 'GST Registration', path: '/legal-services/gst-return-filing' },
-    { title: 'Trademark Registration', path: '/legal-services/trademark-registration' },
-    { title: 'GST return ', path: '/legal-services/gst-return-filing' },
-    { title: 'Account management', path: '/legal-services/account-management' },
-    { title: 'GST Complaines', path: '/legal-services/good-service-compliance' },
-      ]
+export const navLinks = [
+    { label: "Home", link: "/home" },
+    {
+      label: "Service",
+      megaMenu: [
+        {
+          label: "Loan Services",
+          subMenu: [
+            { label: "Auto Loan", link: "/loan-types/auto-loan" },
+            { label: "Home Loan", link: "/loan-types/home-loan" },
+            { label: "Personal Loan", link: "/loan-types/personal-loan" },
+            { label: "Business Loan", link: "/loan-types/business-loan" },
+            { label: "Education Loan", link: "/loan-types/education-loan" },
+          ],
+        },
+        {
+          label: "Legal Services",
+          subMenu: [
+            { label: "Legal Consultation", link: "/legal/legal-consultation" },
+            { label: "Business Law", link: "/legal/business-law" },
+            { label: "Contract Law", link: "/legal/contract-law" },
+            { label: "Property Law", link: "/legal/property-law" },
+            { label: "Civil Law", link: "/legal/civil-law" },
+          ],
+        },
+      ],
     },
-    { 
-      title: 'Pages', 
+    {
+      label: "Pages",
       subMenu: [
-        { title: 'About Us', path: '/about' },
-        { title: 'Team 01', path: '/team' },
-        { title: 'Team 02', path: '/team-2' },
-        { title: 'Team 03', path: '/team-3' },
-        { title: 'Team Details', path: '/team-details' },
-        { title: 'Pricing 01', path: '/pricing' },
-        { title: 'Pricing 02', path: '/pricing-2' }
-      ]
+        { label: "About Us", link: "/about" },
+        { label: "Team 01", link: "/team" },
+        { label: "Team 02", link: "/team-2" },
+        { label: "Team 03", link: "/team-3" },
+      ],
     },
-    { 
-      title: 'Mega Menu', 
+    {
+      label: "Loan Calculator",
       subMenu: [
-        { title: 'IT / Software Agency', path: '/index-1' },
-        { title: 'SaaS App Landing', path: '/index-2' },
-        { title: 'Payments Solution', path: '/index-3' },
-        { title: 'Software Company', path: '/index-4' },
-        { title: 'Artificial Intelligence', path: '/index-5' },
-        { title: 'NFT Service', path: '/index-6' },
-        { title: 'Cyber Security', path: '/index-7' },
-        { title: 'Hardware Service', path: '/index-8' },
-        { title: 'ICO Landing', path: '/index-9' },
-        { title: 'Personal Portfolio', path: '/index-10' },
-        { title: 'SEO Service', path: '/index-11' }
-      ]
+        { label: "Blog 01", link: "/blog" },
+        { label: "Blog 02", link: "/blog-2" },
+        { label: "Blog 03", link: "/blog-3" },
+        { label: "Blog 04", link: "/blog-4" },
+        { label: "Blog Details", link: "/blog-details" },
+      ],
     },
-    { 
-      title: 'Loan Calculator', 
-      subMenu: [
-        { title: 'Blog 01', path: '/blog' },
-        { title: 'Blog 02', path: '/blog-2' },
-        { title: 'Blog 03', path: '/blog-3' },
-        { title: 'Blog 04', path: '/blog-4' },
-        { title: 'Blog Details', path: '/blog-details' }
-      ]
-    },
-    { title: 'About Us', path: '/about' },
-    { title: 'Contact', path: '/contact' }
+    { label: "About Us", link: "/about" },
+    { label: "Contact", link: "/contact" },
   ];
+  
