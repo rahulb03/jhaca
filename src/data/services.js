@@ -26,7 +26,7 @@ export const services = [
     slug: "education-loan"
   },
   {
-    title: "Mortgage Loan",
+    title: "Mortage Loan",
     description: "Get a mortgage to purchase your dream home with favorable terms and long repayment periods.",
     imgSrc: "assets/img/service-icon/1.png",
     slug: "mortgage-loan"
@@ -51,7 +51,7 @@ export const servicesData = {
     { name: 'Home Loan', link: '/service-details/home-loan', id: 'home' },
     { name: 'Education Loan', link: '/service-details/education-loan', id: 'education' },
     { name: 'Business Loan', link: '/service-details/business-loan', id: 'business' },
-    { name: 'Mortgage Loan', link: '/service-details/mortgage-loan', id: 'mortgage' },
+    { name: 'Mortage Loan', link: '/service-details/mortage-loan', id: 'mortgage' },
     { name: 'Vehicle Loan', link: '/service-details/vehicle-loan', id: 'vehicle' },
     { name: 'Personal Loan', link: '/service-details/personal-loan', id: 'personal' }
   ],

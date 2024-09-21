@@ -110,12 +110,11 @@ const NavBar = () => {
 
               {/* Service Menu with New Submenu */}
               <li className="menu-item-has-children">
-                <Link href="#">Service</Link>
+                <Link href="#">Loans</Link>
+               
                 <ul className="sub-menu">
-                <li>
-                          <Link href="/service-details/home-loan">Home Loan</Link>
-                        </li>
-                        <li>
+                      
+                   <li>
                           <Link href="/service-details/personal-loan">Personal Loan</Link>
                         </li>
                         <li>
@@ -125,11 +124,30 @@ const NavBar = () => {
                           <Link href="/service-details/education-loan">Education Loan</Link>
                         </li>
 
+                        
+                        <li>
+                          <Link href="/service-details/home-loan">Home Loan</Link>
+                        </li>
+                        <li>
+                          <Link href="/service-details/mortage-loan">Mortage Loan</Link>
+                        </li>
+                       
+
                         <li>
                           <Link href="/service-details/vehicle-loan">vehicle Loan</Link>
                         </li>
 
-                   <li>
+                   
+                 
+                </ul>
+              </li>
+
+              <li className="menu-item-has-children">
+                <Link href="#">Legal Services</Link>
+               
+                <ul className="sub-menu">
+                      
+                <li>
                           <Link href="/legal-services/income-tax-return">Income Tax Return</Link>
                         </li>
                         <li>
@@ -150,18 +168,14 @@ const NavBar = () => {
                         <li>
                           <Link href="/legal-services/good-service-compliance">GST Complaines</Link>
                         </li>
-                  <li className="menu-item-has-children">
-                    <Link href="#">Loan</Link>
-                    <ul className="sub-menu">
-                     
-                    </ul>
-                  </li>
+                  
+                   
                  
                 </ul>
               </li>
 
               {/* Pages Menu */}
-              <li className="menu-item-has-children">
+              {/* <li className="menu-item-has-children">
                 <Link href="#">Pages</Link>
                 <ul className="sub-menu">
                   <li>
@@ -186,10 +200,10 @@ const NavBar = () => {
                     <Link href="/pricing-2">Pricing 02</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
 
               {/* Mega Menu */}
-              <li className="menu-item-has-children mega-menu">
+              {/* <li className="menu-item-has-children mega-menu">
                 <Link href="#">Mega Menu</Link>
                 <div className="sub-menu">
                   <div className="row">
@@ -295,12 +309,13 @@ const NavBar = () => {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> */}
 
               {/* Loan Calculator Menu */}
-              <li className="menu-item-has-children">
+              {/* <li className="menu-item-has-children"> */}
+              <li>
                 <Link href="#">Loan Calculator</Link>
-                <ul className="sub-menu">
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/blog">Blog 01</Link>
                   </li>
@@ -316,7 +331,7 @@ const NavBar = () => {
                   <li>
                     <Link href="/blog-details">Blog Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
 
               {/* About Us Link */}

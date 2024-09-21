@@ -1,6 +1,8 @@
 // import image from '../../public/assets/img/service/7.png'
 import image from '../../public/assets/img/service/7.png'
-
+import vehicle from '../../public/assets/img/service/VEHICLE_LOAN.jpg'
+import personal from '../../public/assets/img/service/personal_loan.jpg'
+import business from '../../public/assets/img/service/BUSINESS_LOAN.jpg'
 
 
 export const contentData = {
@@ -66,7 +68,7 @@ export const contentData = {
         title: 'Business Loan Services',
         description: `Expand your business with our tailor-made business loan solutions. Get financial backing to achieve your goals.`,
         // imageSrc: 'assets/img/service/business-loan.png',
-        imageSrc:image,
+        imageSrc:business,
         content: [
           `Our business loans are designed for small and medium-sized enterprises, offering quick approval and minimal paperwork.`,
           `Grow your business without financial constraints by leveraging our competitive interest rates and flexible terms.`
@@ -89,7 +91,7 @@ export const contentData = {
         ]
       },
       {
-        id: 'mortgage-loan',
+        id: 'mortage-loan',
         title: 'Mortgage Loan Services',
         description: `Secure your property with our mortgage loans. Benefit from low-interest rates and flexible repayment schedules.`,
         // imageSrc: 'assets/img/service/mortgage-loan.png',
@@ -122,7 +124,7 @@ export const contentData = {
         title: 'Vehicle Loan Services',
         description: `Drive your dream vehicle with our easy and affordable vehicle loans. Choose the right plan to suit your budget.`,
         // imageSrc: 'assets/img/service/vehicle-loan.png',
-        imageSrc:image,
+        imageSrc:vehicle,
   
         content: [
           `We offer financing for a wide range of vehicles, from personal cars to commercial fleets, with quick approval processes.`,
@@ -150,7 +152,7 @@ export const contentData = {
         title: 'Personal Loan Services',
         description: `Get financial support for your personal needs with our flexible personal loan plans. No collateral required.`,
         // imageSrc: 'assets/img/service/personal-loan.png',
-        imageSrc:image,
+        imageSrc:personal,
   
         content: [
           `Whether it's for medical emergencies, travel, or home renovation, our personal loans provide fast access to funds.`,

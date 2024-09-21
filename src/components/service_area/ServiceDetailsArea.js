@@ -68,7 +68,7 @@ const ServiceDetailsArea = ({ service }) => {
                   <h4>{service.title}</h4>
                   <p>{service.description}</p>
                   <div className="thumb">
-                    <Image src={service.imageSrc} alt={service.title} />
+                    <Image src={service.imageSrc} alt={service.title} width={850} height={411} />
                   </div>
                   {service.content.map((paragraph, idx) => (
                     <p key={idx}>{paragraph}</p>

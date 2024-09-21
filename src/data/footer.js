@@ -4,7 +4,7 @@ export const services = [
     { name: 'Home Loan', link: '/service-details/home-loan', id: 'home' },
     { name: 'Education Loan', link: '/service-details/education-loan', id: 'education' },
     { name: 'Business Loan', link: '/service-details/business-loan', id: 'business' },
-    { name: 'Mortgage Loan', link: '/service-details/mortgage-loan', id: 'mortgage' },
+    { name: 'Mortage Loan', link: '/service-details/mortage-loan', id: 'mortgage' },
     { name: 'Vehicle Loan', link: '/service-details/vehicle-loan', id: 'vehicle' },
     { name: 'Personal Loan', link: '/service-details/personal-loan', id: 'personal' }
   ];
