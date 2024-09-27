@@ -12,12 +12,101 @@ export const projectInfo = [
 
 
 import image from '../../public/assets/img/service/7.png'
+import itr from '../../public/assets/img/legal_service/itr.webp'
+import audit from '../../public/assets/img/legal_service/audit.webp'
+import company from '../../public/assets/img/legal_service/company.webp'
+import gst_return from '../../public/assets/img/legal_service/GST-Return-1.webp'
+import trademark from '../../public/assets/img/legal_service/trademark.webp'
+import account from '../../public/assets/img/legal_service/account.webp'
+import gst_registration from '../../public/assets/img/legal_service/gst-registration.webp'
+import good_service from '../../public/assets/img/legal_service/gst-complaineces.webp'
+import tds from '../../public/assets/img/legal_service/tds-service.jpg'    
+import tcs from '../../public/assets/img/legal_service/TCS-Exemption.jpg'
 
 export const mainContent = [
     {
+        id: "tds-return-filing",
+        name: "TDS Return Filing",
+        image: tds, // Replace with the actual image path
+        content: [
+            {
+                title: "Accurate TDS Return Filing",
+                paragraphs: [
+                    "We provide efficient and accurate TDS return filing services to ensure your compliance with tax regulations. Our team handles all the details, from calculating deductions to submitting the forms on time.",
+                    "Let our experts take care of your TDS filing so you can focus on your business operations."
+                ]
+            },
+            {
+                title: "TDS Compliance and Advisory",
+                paragraphs: [
+                    "In addition to filing, we offer advisory services to help you stay updated with the latest TDS rules and guidelines, ensuring timely and error-free submissions."
+                ]
+            },
+            {
+                title: "Get in Touch: TDS Queries?",
+                paragraphs: [
+                    "If you have any questions regarding TDS filing or need professional help, don’t hesitate to reach out to our expert team for guidance."
+                ]
+            }
+        ],
+        highlights: [
+            [
+                { text: 'Timely Filings', icon: 'FaCheckCircle' },
+                { text: 'Compliance Guaranteed', icon: 'FaCheckCircle' },
+                { text: 'Expert Advisory', icon: 'FaCheckCircle' }
+            ],
+            [
+                { text: 'Latest TDS Rules', icon: 'FaCheckCircle' },
+                { text: 'Minimized Penalties', icon: 'FaCheckCircle' },
+                { text: 'Detailed Reporting', icon: 'FaCheckCircle' }
+            ]
+        ]
+    }
+,    
+    {
+        id: "tcs-return-filing",
+        name: "TCS Return Filing",
+        image: tcs, // Replace with the actual image path
+        content: [
+            {
+                title: "Efficient TCS Return Filing",
+                paragraphs: [
+                    "We provide comprehensive TCS return filing services, ensuring all collected tax is accurately reported and submitted. Our services help you remain compliant with TCS regulations and avoid any penalties.",
+                    "With our expert team, you can stay assured that your TCS returns are handled professionally and submitted on time."
+                ]
+            },
+            {
+                title: "TCS Compliance and Advisory",
+                paragraphs: [
+                    "We offer advisory services to help you understand and comply with TCS regulations, minimizing the risk of errors or delays in your filings."
+                ]
+            },
+            {
+                title: "Get in Touch: TCS Questions?",
+                paragraphs: [
+                    "Have questions about TCS filing or need help with compliance? Contact our team for expert guidance and support."
+                ]
+            }
+        ],
+        highlights: [
+            [
+                { text: 'Accurate Filings', icon: 'FaCheckCircle' },
+                { text: 'Up-to-date Compliance', icon: 'FaCheckCircle' },
+                { text: 'Expert Advisory Services', icon: 'FaCheckCircle' }
+            ],
+            [
+                { text: 'Reduced Penalties', icon: 'FaCheckCircle' },
+                { text: 'Timely Submissions', icon: 'FaCheckCircle' },
+                { text: 'Dedicated Support', icon: 'FaCheckCircle' }
+            ]
+        ]
+    }
+,
+    
+    {
         id: "income-tax-return",
         name: "Income Tax Return",
-        image: image, // Replace with the actual image path
+        image: itr, // Replace with the actual image path
         content: [
             {
                 title: "Income Tax Return Filing Made Easy",
@@ -55,7 +144,7 @@ export const mainContent = [
     {
         id: "audit-services",
         name: "Audit Services",
-        image: image,
+        image: audit,
         content: [
             {
                 title: "Thorough Audit Solutions",
@@ -93,7 +182,7 @@ export const mainContent = [
     {
         id: "company-registration",
         name: "Company Registration",
-        image: image,
+        image: company,
         content: [
             {
                 title: "Seamless Company Registration",
@@ -131,7 +220,7 @@ export const mainContent = [
     {
         id: "gst-return-filing",
         name: "GST Return Filing",
-        image: image,
+        image: gst_return,
         content: [
             {
                 title: "Timely GST Return Filing",
@@ -169,7 +258,7 @@ export const mainContent = [
     {
         id: "trademark-registration",
         name: "Trademark Registration",
-        image: image,
+        image: trademark,
         content: [
             {
                 title: "Protect Your Brand",
@@ -207,7 +296,7 @@ export const mainContent = [
     {
         id: "account-management",
         name: "Account Management",
-        image: image,
+        image: account,
         content: [
             {
                 title: "Efficient Account Management",
@@ -245,7 +334,7 @@ export const mainContent = [
     {
         id: "good-service-compliance",
         name: "Good and Service Compliance",
-        image: image,
+        image: good_service,
         content: [
             {
                 title: "Stay Compliant",
@@ -279,5 +368,44 @@ export const mainContent = [
         { text: 'Penalty Reduction', icon: 'FaCheckCircle' }
       ]
     ]
+    } ,
+    {
+        id: "gst-registration",
+        name: "GST Registration",
+        image:gst_registration, // Replace with the actual image path
+        content: [
+            {
+                title: "Hassle-Free GST Registration",
+                paragraphs: [
+                    "We provide seamless GST registration services to help you get registered under the GST regime. Our experts ensure that your registration is done accurately and quickly, making the process stress-free for you.",
+                    "Whether you're starting a new business or transitioning from the old tax regime, we guide you through every step of the GST registration process."
+                ]
+            },
+            {
+                title: "Post-Registration Support",
+                paragraphs: [
+                    "After registration, we continue to assist you in staying compliant with all GST regulations, providing timely reminders for filings, and answering any queries you may have."
+                ]
+            },
+            {
+                title: "Get in Touch: GST Registration Help",
+                paragraphs: [
+                    "For any inquiries about GST registration or to begin the process, feel free to reach out to our team for expert assistance."
+                ]
+            }
+        ],
+        highlights: [
+            [
+                { text: 'Quick Registration', icon: 'FaCheckCircle' },
+                { text: 'Accurate Documentation', icon: 'FaCheckCircle' },
+                { text: 'Legal Compliance', icon: 'FaCheckCircle' }
+            ],
+            [
+                { text: 'Post-Registration Support', icon: 'FaCheckCircle' },
+                { text: 'Expert Guidance', icon: 'FaCheckCircle' },
+                { text: 'Ongoing Compliance Help', icon: 'FaCheckCircle' }
+            ]
+        ]
     }
+    
 ];

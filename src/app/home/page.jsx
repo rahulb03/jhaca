@@ -43,7 +43,11 @@ const page = () => {
       {/* Contact Area Three */}
       <div className=" " >
       <ContactAreaThree />
+      
 </div>
+
+<CounterAreaThree />
+
       {/* Testimonial Two */}
       <TestimonialTwo />
 
@@ -51,10 +55,10 @@ const page = () => {
       <WorkProcessThree />
 
       {/* Counter Area Three */}
-      <CounterAreaThree />
+      {/* <CounterAreaThree /> */}
 
       {/* Blog Area Three */}
-      <BlogAreaThree />
+      {/* <BlogAreaThree /> */}
 
       {/* Footer Two */}
       {/* <FooterTwo /> */}

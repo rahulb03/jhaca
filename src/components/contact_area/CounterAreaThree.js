@@ -3,6 +3,7 @@ import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 import { counters } from "@/data/project_counter";
+import Image from "next/image";
 
 
 const CounterAreaThree = () => {
@@ -16,7 +17,7 @@ const CounterAreaThree = () => {
               <div className='col-lg-3 col-md-6' key={id}>
                 <div className='single-counter-inner style-2 text-center'>
                   <div className='thumb'>
-                    <img src={image} alt='img' />
+                    <Image src={image} alt='img' className="border-rounded" height={75} width={75} style={{backgroundColor:'white' , padding:'5px' , borderRadius:'50px'}}/>
                   </div>
                   <h2 className='text-white mt-3 mb-2'>
                     <TrackVisibility once>

@@ -49,7 +49,7 @@ const CaseStudyArea = ({ legal_service }) => {
                   <h2>{legal_service.name}</h2>
                   <div className='thumb'>
                     {legal_service.image && (
-                      <Image src={legal_service.image} alt={legal_service.name} />
+                      <Image src={legal_service.image} alt={legal_service.name}  height={411} width={850}/>
                     )}
                   </div>
                   {legal_service.content.map((section, index) => (

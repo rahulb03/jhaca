@@ -1,8 +1,11 @@
 // import image from '../../public/assets/img/service/7.png'
 import image from '../../public/assets/img/service/7.png'
-import vehicle from '../../public/assets/img/service/VEHICLE_LOAN.jpg'
-import personal from '../../public/assets/img/service/personal_loan.jpg'
-import business from '../../public/assets/img/service/BUSINESS_LOAN.jpg'
+import vehicle from '../../public/assets/img/service/VEHICLE_LOAN.webp'
+import personal from '../../public/assets/img/service/personal_loan.webp'
+import business from '../../public/assets/img/service/business.webp'
+import education from '../../public/assets/img/service/education_loan.webp'
+import mortgage from '../../public/assets/img/service/mortage_loan.webp'
+import home from '../../public/assets/img/service/home2.jpg'
 
 
 export const contentData = {
@@ -12,7 +15,7 @@ export const contentData = {
         title: 'Home Loan Services',
         description: `Get the best home loan solutions to build your dream home. Our flexible payment plans ensure you can manage your finances easily.`,
         // imageSrc: 'assets/img/service/home-loan.png',
-        imageSrc: image,
+        imageSrc: home,
   
         content: [
           `We offer competitive interest rates and flexible repayment options for home loans. Whether you're building or buying, we can assist.`,
@@ -40,7 +43,7 @@ export const contentData = {
         title: 'Education Loan Services',
         description: `Invest in your future with our education loans. We offer financial support to help you achieve academic excellence.`,
         // imageSrc: 'assets/img/service/education-loan.png',
-        imageSrc:image,
+        imageSrc:education,
   
         content: [
           `Our education loans come with low-interest rates, flexible repayment terms, and minimal documentation.`,
@@ -91,11 +94,11 @@ export const contentData = {
         ]
       },
       {
-        id: 'mortage-loan',
+        id: 'mortgage-loan',
         title: 'Mortgage Loan Services',
         description: `Secure your property with our mortgage loans. Benefit from low-interest rates and flexible repayment schedules.`,
         // imageSrc: 'assets/img/service/mortgage-loan.png',
-        imageSrc:image,
+        imageSrc:mortgage,
   
   
         content: [

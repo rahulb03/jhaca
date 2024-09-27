@@ -4,20 +4,22 @@ export const services = [
     { name: 'Home Loan', link: '/service-details/home-loan', id: 'home' },
     { name: 'Education Loan', link: '/service-details/education-loan', id: 'education' },
     { name: 'Business Loan', link: '/service-details/business-loan', id: 'business' },
-    { name: 'Mortage Loan', link: '/service-details/mortage-loan', id: 'mortgage' },
+    { name: 'Mortgage Loan', link: '/service-details/mortgage-loan', id: 'mortgage' },
     { name: 'Vehicle Loan', link: '/service-details/vehicle-loan', id: 'vehicle' },
     { name: 'Personal Loan', link: '/service-details/personal-loan', id: 'personal' }
   ];
   
   export const payLinks = [
     { name: 'Income Tax Return', href: '/legal-services/income-tax-return' },
-    { name: 'Audit', href: '/legal-services/audit-services' },
+    { name: 'Audit Service', href: '/legal-services/audit-services' },
     { name: 'Company Registration', href: '/legal-services/company-registration' },
-    { name: 'GST Registration', href: '/legal-services/gst-return-filing' },
+    { name: 'GST Registration', href: '/legal-services/gst-registration' },
     { name: 'Trademark Registration', href: '/legal-services/trademark-registration' },
-    { name: 'GST return ', href: '/legal-services/gst-return-filing' },
+    { name: 'GST Return Filing ', href: '/legal-services/gst-return-filing' },
     { name: 'Account management', href: '/legal-services/account-management' },
-    { name: 'GST Complaines', href: '/legal-services/good-service-compliance' },
+    { name: 'GST Compliances', href: '/legal-services/good-service-compliance' },
+    { name: 'TCS return', href: '/legal-services/tcs-return-filing' },
+    { name: 'TDS return', href: '/legal-services/tds-return-filing' },
   ];
   
 

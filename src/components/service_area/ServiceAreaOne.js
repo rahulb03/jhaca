@@ -2,6 +2,7 @@ import React from "react";
 import { FaPlus } from "react-icons/fa";
 import serviceList from "../../scripts/serviceList";
 import Link from "next/link";
+import Image from "next/image";
 
 const ServiceAreaOne = () => {
   return (
@@ -15,9 +16,9 @@ const ServiceAreaOne = () => {
         />
         <div className='container'>
           <div className='section-title text-center'>
-            <h6 className='sub-title'>CREATIVE SERVICES</h6>
+            <h6 className='sub-title'>OUR SERVICES</h6>
             <h2 className='title'>
-              Your Partner In <span>Digital</span> Success
+              Your Partner In <span>FINANCIAL</span> Success
             </h2>
           </div>
           <div className='row'>
@@ -25,7 +26,7 @@ const ServiceAreaOne = () => {
               <div key={index} className='col-lg-4 col-md-6'>
                 <div className='single-service-inner style-3'>
                   <div className='thumb'>
-                    <img src={service.imgSrc} alt={service.title} />
+                    <Image src={service.imgSrc} alt={service.title} />
                   </div>
                   <div className='details'>
 

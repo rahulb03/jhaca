@@ -2,6 +2,12 @@
 
 export const legalServices = [
     {
+        title: "Gst registration",
+        description: "Filing your income tax return has never been easier with our expert team guiding you.",
+        imgSrc: "assets/img/legal-services/income-tax-return.png",
+        slug: "gst-registration"
+    },
+    {
         title: "Income Tax Return",
         description: "Filing your income tax return has never been easier with our expert team guiding you.",
         imgSrc: "assets/img/legal-services/income-tax-return.png",

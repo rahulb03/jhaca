@@ -114,6 +114,9 @@ const NavBar = () => {
                
                 <ul className="sub-menu">
                       
+                <li>
+                          <Link href="/service-details/home-loan">Home Loan</Link>
+                        </li>
                    <li>
                           <Link href="/service-details/personal-loan">Personal Loan</Link>
                         </li>
@@ -125,11 +128,9 @@ const NavBar = () => {
                         </li>
 
                         
+                        
                         <li>
-                          <Link href="/service-details/home-loan">Home Loan</Link>
-                        </li>
-                        <li>
-                          <Link href="/service-details/mortage-loan">Mortage Loan</Link>
+                          <Link href="/service-details/mortgage-loan">Mortgage Loan</Link>
                         </li>
                        
 
@@ -151,22 +152,33 @@ const NavBar = () => {
                           <Link href="/legal-services/income-tax-return">Income Tax Return</Link>
                         </li>
                         <li>
-                          <Link href="/legal-services/audit-services">Audit</Link>
+                          <Link href="/legal-services/audit-services">Audit </Link>
                         </li>
                         <li>
                           <Link href="/legal-services/company-registration">Company Registration</Link>
                         </li>
                         <li>
-                          <Link href="/legal-services/gst-return-filing">GST Registration</Link>
+                          <Link href="/legal-services/gst-registration">GST Registration</Link>
                         </li>
+                       
                         <li>
                           <Link href="/legal-services/trademark-registration">Trademark Registration</Link>
+                        </li>
+
+                        <li>
+                          <Link href="/legal-services/gst-return-filing">GST Return</Link>
                         </li>
                         <li>
                           <Link href="/legal-services/account-management">Account management</Link>
                         </li>
                         <li>
-                          <Link href="/legal-services/good-service-compliance">GST Complaines</Link>
+                          <Link href="/legal-services/good-service-compliance">GST Compliances</Link>
+                        </li>
+                        <li>
+                          <Link href="/legal-services/tds-return-filing"> TDS return</Link>
+                        </li>
+                        <li>
+                          <Link href="/legal-services/tcs-return-filing">TCS return</Link>
                         </li>
                   
                    

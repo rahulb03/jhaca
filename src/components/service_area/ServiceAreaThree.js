@@ -5,6 +5,7 @@ import { FaPlus } from "react-icons/fa";
 
 
 import { services } from "@/data/services";
+import Image from "next/image";
 
 
 const ServiceAreaThree = () => {
@@ -29,7 +30,7 @@ const ServiceAreaThree = () => {
               <div key={index} className='col-lg-4 col-md-6'>
                 <div className='single-service-inner style-3'>
                   <div className='thumb'>
-                    <img src={service.imgSrc} alt={service.title} />
+                    <Image src={service.imgSrc} alt={service.title} />
                   </div>
                   <div className='details'>
 

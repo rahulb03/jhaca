@@ -1,5 +1,22 @@
 
-
+import axis from '../../public/assets/img/logo/axis.svg';
+import cb from '../../public/assets/img/logo/cb.svg';
+import hdfc from '../../public/assets/img/logo/hdfc.svg';
+import ubi from '../../public/assets/img/logo/ubi.svg';
+import sbi from '../../public/assets/img/logo/sbi.svg';
+import client from '../../public/assets/img/logo/209685.svg';
+// import punjab from '../../public/assets/img/logo/punjab.png';
+// import kotak from '../../public/assets/img/logo/download.png';
+// import bob from '../../public/assets/img/logo/bob.png';
+import au from '../../public/assets/img/logo/tagline.svg';
+// import icici from '../../public/assets/img/logo/icici.png';
+// import indusland from '../../public/assets/img/logo/indusland.png';
+// import idfc from '../../public/assets/img/logo/idfc.png';
+// import cbi from '../../public/assets/img/logo/central-bank-of-india-logo.png';
+import cbi from '../../public/assets/img/logo/pngwing.com.png';
+import c1 from '../../public/assets/img/logo/Central-Bank-of-India-01.jpg'
+import c2 from '../../public/assets/img/logo/Central-Bank-of-India-01.png'
+import c3 from '../../public/assets/img/logo/Central-Bank-of-India-01.svg'
 
 export const aboutData = {
   title: "Expert Financial Solutions for Your Business",
@@ -21,15 +38,20 @@ export const aboutData = {
     link: "/contact"
   },
   clients: [
-    { imgSrc: 'assets/img/logo/axis.svg', alt: 'Axis Bank Logo' },
-    // { imgSrc: 'assets/img/logo/bob (2).svg', alt: 'Bank of Baroda Logo' },
-    { imgSrc: 'assets/img/logo/cb.svg', alt: 'Central Bank Logo' },
-    // { imgSrc: 'assets/img/logo/cbi (2).svg', alt: 'Central Bank of India Logo' },
-    { imgSrc: 'assets/img/logo/hdfc.svg', alt: 'HDFC Bank Logo' },
-    // { imgSrc: 'assets/img/logo/pbi.svg', alt: 'Punjab National Bank Logo' },
-    { imgSrc: 'assets/img/logo/ubi.svg', alt: 'Union Bank Logo' },
-    { imgSrc: 'assets/img/logo/sbi.svg', alt: 'State Bank of India Logo' },
-    { imgSrc: 'assets/img/logo/209685.svg', alt: 'Client Logo' }
+    // { imgSrc: kotak, alt: 'kotak mahindra bank  Logo' },
+
+    { imgSrc: axis, alt: 'Axis Bank Logo' },
+    { imgSrc: au, alt: 'au Logo' },
+    { imgSrc: cb, alt: 'Central Bank Logo' },
+    { imgSrc: hdfc, alt: 'HDFC Bank Logo' },
+   { imgSrc: ubi , alt: 'Union Bank Logo' },
+    { imgSrc: sbi, alt: 'State Bank of India Logo' },
+    { imgSrc: cbi, alt: 'central Bank of India Logo' },
+    { imgSrc: c1, alt: 'central Bank of India Logo' },
+    { imgSrc: c2, alt: 'central Bank of India Logo' },
+    { imgSrc: c3, alt: 'central Bank of India Logo' },
+   
+   
   ],
 };
 
