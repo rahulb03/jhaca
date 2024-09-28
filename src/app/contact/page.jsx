@@ -8,7 +8,7 @@ import { WEBSITE_NAME } from "@/Config/config";
 
 
 export const metadata = {
-  title: `Contact || ${WEBSITE_NAME}`,
+  title: `Contact - ${WEBSITE_NAME}`,
   description:
     // "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
     ""

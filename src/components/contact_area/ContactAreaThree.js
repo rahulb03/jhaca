@@ -1,5 +1,9 @@
 import React from "react";
 import { contactData } from "@/data/contact";
+import Image from "next/image";
+// import about from "@/assets/img/site_images/Untitled design ().svg";
+
+import about from '../../../public/assets/img/site_images/Untitled design (3).svg'
 
 const ContactAreaThree = () => {
   return (
@@ -14,7 +18,7 @@ const ContactAreaThree = () => {
               data-aos-delay='200'
               data-aos-duration='1500'
             >
-              <img className='w-100' src='assets/img/about/12.png' alt='img' />
+              <Image className='w-100' src={about} alt='img' />
             </div>
             <div
               className='col-lg-4'

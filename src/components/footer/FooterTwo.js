@@ -111,12 +111,12 @@ const FooterTwo = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-6 align-self-center">
-                <p>© AglieTech 2024 | All Rights Reserved</p>
+                <p>© Tech Samrajya 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <Link href="#">Trams &amp; Condition</Link>
-                <Link href="#">Privacy Policy</Link>
-                <Link href="#">Contact Us</Link>
+                {/* <Link href="#">Trams &amp; Condition</Link>
+                <Link href="#">Privacy Policy</Link> */}
+                <Link href="/contact">Contact Us</Link>
               </div>
             </div>
           </div>

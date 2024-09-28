@@ -174,7 +174,7 @@ const TestimonialTwo = () => {
                       </div>
                       <div className="col-sm-4 mt-sm-4">
                         <div className="ratting-inner">
-                          <span>Rating:</span>
+                          {/* <span>Rating:</span> */}
                           {Array.from({ length: testimonial.stars }, (_, i) => (
                             <FaStar key={i} />
                           ))}

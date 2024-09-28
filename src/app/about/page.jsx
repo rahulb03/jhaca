@@ -19,7 +19,7 @@ import { WEBSITE_NAME } from "@/Config/config";
 import { services } from "@/data/services";
 
 export const metadata = {
-  title: `About || ${WEBSITE_NAME}`,
+  title: `About - ${WEBSITE_NAME}`,
   description:
     "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
 };

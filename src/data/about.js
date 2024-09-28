@@ -11,13 +11,13 @@ import icici from '../../public/assets/img/logo/icici_bank_logo.svg (1).svg';
 import indusland from '../../public/assets/img/logo/indusind_bank_logo.png.svg';
 import bob from '../../public/assets/img/logo/bank_of_baroda_logo.svg';
 // import idfc from '../../public/assets/img/logo/idfc.png';
-
+import image from '../../public/assets/img/site_images/Untitled design (4).svg'
 import cbi1 from '../../public/assets/img/logo/central_bank_of_india_logo.svg (1).svg'
 
 export const aboutData = {
   title: "Expert Financial Solutions for Your Business",
   subtitle: "ABOUT OUR FIRM",
-  imageSrc: 'assets/img/about/11.png',
+  imageSrc: image,
 
   content: {
     description: "As a leading chartered accountant firm, we provide comprehensive financial services, including tax planning, auditing, and advisory solutions tailored to your business needs.",

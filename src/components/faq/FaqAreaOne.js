@@ -143,7 +143,8 @@
 
 import React from "react";
 import { faqData } from "@/data/faq";
-
+import Image from "next/image";
+import image from '../../../public/assets/img/site_images/Untitled design (2).svg'
 const FaqAreaOne = () => {
   return (
     <>
@@ -161,9 +162,9 @@ const FaqAreaOne = () => {
               data-aos-duration='1500'
             >
               <div className='about-thumb-inner pt-lg-3'>
-                <img
+                <Image
                   className='main-img'
-                  src='assets/img/about/4.png'
+                  src={image}
                   alt='Accountant'
                 />
                 {/* <img

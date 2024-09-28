@@ -40,7 +40,7 @@ const ServiceAreaThree = () => {
                             <p>{service.description}</p>
 
                       <Link className='read-more-text' href={`/service-details/${service.slug}`}>
-                        Touch More <FaPlus />
+                        Know More <FaPlus />
                       </Link>
 
                   </div>

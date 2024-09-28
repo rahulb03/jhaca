@@ -97,6 +97,8 @@
 
 import React from "react";
 import { aboutItems , aboutUsContent } from "@/data/about";
+import image1 from '../../../public/assets/img/site_images/Untitled design (1).svg'
+import Image from "next/image";
 const AboutAreaOne = () => {
 
   return (
@@ -127,9 +129,9 @@ const AboutAreaOne = () => {
                   src='assets/img/banner/5.svg'
                   alt='Accounting Solutions'
                 />
-                <img
+                <Image
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={image1}
                   alt='Professional Accountants'
                 />
               </div>
