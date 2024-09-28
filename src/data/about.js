@@ -9,7 +9,7 @@ import kotak from '../../public/assets/img/logo/kotak_mahindra_bank_logo.svg (3)
 import au from '../../public/assets/img/logo/tagline.svg';
 import icici from '../../public/assets/img/logo/icici_bank_logo.svg (1).svg';
 import indusland from '../../public/assets/img/logo/indusind_bank_logo.png.svg';
-import bob from '../../public/assets/img/logo/bank_of_baroda_symbol.svg';
+import bob from '../../public/assets/img/logo/bank_of_baroda_logo.svg';
 // import idfc from '../../public/assets/img/logo/idfc.png';
 
 import cbi1 from '../../public/assets/img/logo/central_bank_of_india_logo.svg (1).svg'

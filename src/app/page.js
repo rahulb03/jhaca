@@ -47,13 +47,13 @@ const page = () => {
       <TestimonialTwo />
 
       {/* WorkProcess Three */}
-      <WorkProcessThree />
+      {/* <WorkProcessThree /> */}
 
       {/* Counter Area Three */}
       <CounterAreaThree />
 
       {/* Blog Area Three */}
-      <BlogAreaThree />
+      {/* <BlogAreaThree /> */}
 
       {/* Footer Two */}
       {/* <FooterTwo /> */}

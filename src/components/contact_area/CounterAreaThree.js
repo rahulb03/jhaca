@@ -24,7 +24,7 @@ const CounterAreaThree = () => {
                       {({ isVisible }) =>
                         isVisible && (
                           <span className='counter'>
-                            <CountUp delay={0} start={0} end={count} />{suffix || ''}
+                            <CountUp delay={0} start={0} end={count} />{suffix || '+'}
                           </span>
                         )
                       }

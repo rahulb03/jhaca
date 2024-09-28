@@ -3,6 +3,7 @@
 import Aos from "aos";
 import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Animation = () => {
   useEffect(() => {

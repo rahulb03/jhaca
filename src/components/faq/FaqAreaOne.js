@@ -166,11 +166,11 @@ const FaqAreaOne = () => {
                   src='assets/img/about/4.png'
                   alt='Accountant'
                 />
-                <img
+                {/* <img
                   className='animate-img-bottom-right top_image_bounce'
                   src='assets/img/about/5.png'
                   alt='Finance'
-                />
+                /> */}
               </div>
             </div>
             <div
