@@ -102,18 +102,19 @@ import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import Slider from 'react-slick';
 import { testimonials } from '@/data/testimonial';
+import Image from 'next/image';
 
 const TestimonialTwo = () => {
   const settings = {
     dots: true,
     arrows: false,
     infinite: true,
-    // speed: 1000,
+    speed: 2500,
     slidesToShow: 2,
     slidesToScroll: 2,
-    // autoplay: true, // Enable auto-scrolling
+    autoplay: true, // Enable auto-scrolling
     // autoplaySpeed: 2000, // Time between transitions
-    initialSlide: 0,
+    initialSlide: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -158,7 +159,7 @@ const TestimonialTwo = () => {
                     <div className="row">
                       <div className="col-12">
                         <div className="icon mb-2">
-                          <img src={testimonial.icon} alt="img" />
+                          <Image src={testimonial.icon} alt="img" />
                         </div>
                       </div>
                       <div className="col-sm-8">
@@ -166,8 +167,8 @@ const TestimonialTwo = () => {
                       </div>
                       <div className="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                         <div className="thumb d-inline-block">
-                          <img src={testimonial.photo} alt="img" />
-                        </div>
+                          <Image src={testimonial.photo} alt="img" height={90} width={90}/>
+                        </div> 
                       </div>
                       <div className="col-sm-8 mt-4">
                         <h5 className="mb-0">{testimonial.name}</h5>

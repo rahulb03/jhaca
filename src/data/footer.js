@@ -33,12 +33,14 @@ export const services = [
     FaMapMarkedAlt,
     FaPhoneAlt,
     FaTwitter,
+    FaWhatsapp,
     FaYoutube,
   } from 'react-icons/fa'; 
  export  const socialMedia = [
-    { icon: <FaFacebookF />, href: '#' },
-    { icon: <FaTwitter />, href: '#' },
-    { icon: <FaInstagram />, href: '#' },
-    { icon: <FaYoutube />, href: '#' },
+    { icon: <FaFacebookF />, href: 'https://www.facebook.com/profile.php?id=100093618353913&mibextid=LQQJ4d' },
+    // { icon: <FaTwitter />, href: '#' },
+    { icon: <FaInstagram />, href: 'https://www.instagram.com/jha_consultancy.in?igsh=MXdvdmZ2MXhmaXI0Mw%3D%3D&utm_source=qr' },
+    {icon:<FaWhatsapp />,href:'https://wa.me/917990945254'},
+    // { icon: <FaYoutube />, href: '#' },
   ];
   

@@ -6,6 +6,7 @@ import Image from 'next/image';
 import header_logo from '../../../public/assets/img/logo.png'; 
 import phone_icon from '../../../public/assets/img/icon/1.png'; 
 import { Phone_number } from '@/Config/config';
+import jha from '../../../public/assets/img/JHA_Consultancy.png'
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -84,9 +85,9 @@ const NavBar = () => {
               <span className="icon-right" />
             </button>
           </div>
-          <div className="logo">
+          <div className="logo col-lg-3">
             <Link href="/home">
-              <Image src={header_logo} alt="img" />
+              <Image src={jha} alt="img"  />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
@@ -325,9 +326,9 @@ const NavBar = () => {
 
               {/* Loan Calculator Menu */}
               {/* <li className="menu-item-has-children"> */}
-              <li>
+              {/* <li>
                 <Link href="#">Loan Calculator</Link>
-                {/* <ul className="sub-menu">
+                 <ul className="sub-menu">
                   <li>
                     <Link href="/blog">Blog 01</Link>
                   </li>
@@ -343,8 +344,8 @@ const NavBar = () => {
                   <li>
                     <Link href="/blog-details">Blog Details</Link>
                   </li>
-                </ul> */}
-              </li>
+                </ul> 
+              </li> */}
 
               {/* About Us Link */}
               <li>
@@ -357,16 +358,23 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <div className="nav-right-part nav-right-part-desktop align-self-center">
+          {/* <div className="nav-right-part nav-right-part-desktop align-self-center">
             <a className="navbar-phone" href={`tel:${Phone_number}`}>
               <span className="icon">
                 <Image src={phone_icon} alt="img" />
               </span>
-              <span>Need help?</span>
               <h5>{Phone_number}</h5>
             </a>
-          </div>
+          </div> */}
         </div>
+        <div className=" col-lg-3 nav-right-part nav-right-part-desktop align-self-center">
+            {/* <a className="navbar-phone" href={`tel:${Phone_number}`}>
+              <span className="icon">
+                <Image src={phone_icon} alt="img" />
+              </span>
+              <h5>{Phone_number}</h5>
+            </a> */}
+          </div>
       </nav>
       {/* navbar end */}
     </>

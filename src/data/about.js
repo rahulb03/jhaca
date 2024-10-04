@@ -79,3 +79,14 @@ export const aboutUsContent = {
   description:
     "As chartered accountants, we specialize in delivering top-notch accounting, auditing, and tax services to businesses of all sizes. Our commitment to excellence ensures that you can focus on growing your business while we handle your financial matters.",
 };
+
+
+//badri panjihar - home loan
+
+//nilesh shrikrushna balkar - home loan
+
+//parth patil = accounting , gst handling , tax return  , income tax filing , trademark registration 
+
+//surendra vishnoi - personal loan icici bank
+
+

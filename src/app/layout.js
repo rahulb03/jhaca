@@ -6,6 +6,7 @@ import '../../public/styles/global.css';
 import NavBar from "@/components/Header/NavBar";
 import FooterTwo from "@/components/footer/FooterTwo";
 import { WEBSITE_NAME } from "@/Config/config";
+import WhatsAppIcon from "@/helper/whatsapp";
 
 export const metadata = {
   title: `service || ${WEBSITE_NAME}`,
@@ -18,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <BootstrapInit />
+      {/* <BootstrapInit /> */}
       <body suppressHydrationWarning={true}>
       
       <NavBar />
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
       </main>
 
       <FooterTwo />
-      
+      <WhatsAppIcon />
       
       </body>
 
