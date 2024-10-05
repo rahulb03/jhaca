@@ -1,41 +1,41 @@
-// import Breadcrumb from "@/components/Breadcrumb";
-// import FooterOne from "@/components/footer/FooterOne";
-// import NavBar from "@/components/Header/NavBar";
-// import PricingAreaTwo from "@/components/pricing_area/PricingAreaTwo";
-// import ServiceAreaGroupFive from "@/components//service_area/ServiceAreaGroupFive";
-// import { WEBSITE_NAME } from "@/Config/config";
+import Breadcrumb from "@/components/Breadcrumb";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
+import PricingAreaTwo from "@/components/pricing_area/PricingAreaTwo";
+import ServiceAreaGroupFive from "@/components//service_area/ServiceAreaGroupFive";
+import { WEBSITE_NAME } from "@/Config/config";
 
 
 
 
 
-// export const metadata = {
-//   title: `service || ${WEBSITE_NAME}`,
-//   description:
-//     "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
-// };
+export const metadata = {
+  title: `service || ${WEBSITE_NAME}`,
+  description:
+    "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
+};
 
 
-// const page = () => {
-//   return (
-//     <>
-//       {/* Navigation Bar */}
-//       {/* <NavBar /> */}
+const page = () => {
+  return (
+    <>
+      {/* Navigation Bar */}
+      {/* <NavBar /> */}
 
-//       {/* Navigation Bar */}
-//       <Breadcrumb title={'Service 05'} />
+      {/* Navigation Bar */}
+      <Breadcrumb title={'Service 05'} />
 
-//       {/* ServiceAreaGroupFive */}
-//       <ServiceAreaGroupFive />
+      {/* ServiceAreaGroupFive */}
+      <ServiceAreaGroupFive />
 
-//       {/* PricingAreaTwo */}
-//       <PricingAreaTwo />
+      {/* PricingAreaTwo */}
+      <PricingAreaTwo />
 
-//       {/* Footer One */}
-//       {/* <FooterOne /> */}
+      {/* Footer One */}
+      {/* <FooterOne /> */}
 
-//     </>
-//   );
-// };
+    </>
+  );
+};
 
-// export default page;
+export default page;

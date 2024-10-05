@@ -1,48 +1,48 @@
-// import Breadcrumb from "@/components/Breadcrumb";
-// import ContactAreaOne from "@/components/contact_area/ContactAreaOne";
-// import CounterAreaOne from "@/components/contact_area/CounterAreaOne";
-// import FooterOne from "@/components/footer/FooterOne";
-// import NavBar from "@/components/Header/NavBar";
-// import ProjectAreaGroup from "@/components/project/ProjectAreaGroup";
-// import TeamAreaOne from "@/components/team_area/TeamAreaOne";
+import Breadcrumb from "@/components/Breadcrumb";
+import ContactAreaOne from "@/components/contact_area/ContactAreaOne";
+import CounterAreaOne from "@/components/contact_area/CounterAreaOne";
+import FooterOne from "@/components/footer/FooterOne";
+import NavBar from "@/components/Header/NavBar";
+import ProjectAreaGroup from "@/components/project/ProjectAreaGroup";
+import TeamAreaOne from "@/components/team_area/TeamAreaOne";
 
 
 
-// export const metadata = {
-//   title: "Project || AglieTech - IT Solutions & Technology NEXT JS Template",
-//   description:
-//     "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
-// };
+export const metadata = {
+  title: "Project || AglieTech - IT Solutions & Technology NEXT JS Template",
+  description:
+    "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
+};
 
 
-// const page = () => {
-//   return (
-//     <>
-//       {/* Navigation Bar */}
-//       {/* <NavBar /> */}
+const page = () => {
+  return (
+    <>
+      {/* Navigation Bar */}
+      {/* <NavBar /> */}
 
-//       {/* Breadcrumb */}
-//       <Breadcrumb title={'Project 01'} />
+      {/* Breadcrumb */}
+      <Breadcrumb title={'Project 01'} />
 
-//       {/* ProjectAreaGroup */}
-//       <ProjectAreaGroup />
+      {/* ProjectAreaGroup */}
+      <ProjectAreaGroup />
 
-//       {/* TeamAreaOne */}
-//       <TeamAreaOne />
+      {/* TeamAreaOne */}
+      <TeamAreaOne />
 
-//       {/* Counter Area One */}
-//       <CounterAreaOne />
+      {/* Counter Area One */}
+      <CounterAreaOne />
 
-//       {/* Contact Area One */}
-//       <div className="pd-bottom-120">
-//         <ContactAreaOne />
-//       </div>
+      {/* Contact Area One */}
+      <div className="pd-bottom-120">
+        <ContactAreaOne />
+      </div>
 
-//       {/* Footer One */}
-//       {/* <FooterOne /> */}
+      {/* Footer One */}
+      {/* <FooterOne /> */}
 
-//     </>
-//   );
-// };
+    </>
+  );
+};
 
-// export default page;
+export default page;
