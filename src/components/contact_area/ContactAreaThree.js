@@ -18,7 +18,7 @@ const ContactAreaThree = () => {
               data-aos-delay='200'
               data-aos-duration='1500'
             >
-              <Image className='w-100' src={about} alt='img' />
+              <Image className='w-100' src={about} alt='img' priority  />
             </div>
             <div
               className='col-lg-4'

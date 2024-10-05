@@ -15,7 +15,7 @@ const AboutAreaThree = () => {
         <div className='row'>
           <div className='col-lg-6' data-aos='fade-right' data-aos-delay='100' data-aos-duration='1500'>
             <div className='about-thumb-inner mb-4 mb-lg-0'>
-              <Image className='main-img' src={aboutData.imageSrc} alt='img' />
+              <Image className='main-img' src={aboutData.imageSrc} alt='img' width={520} height={598} priority />
             </div>
           </div>
           <div className='col-lg-6 wow animated fadeInRight' data-aos='fade-left' data-aos-delay='100' data-aos-duration='1500'>
@@ -57,7 +57,7 @@ const AboutAreaThree = () => {
             <Marquee gradient={false}>
               {aboutData.clients.map((client, index) => (
                 <div className='thumb' key={index}>
-                  <Image src={client.imgSrc} alt={client.alt} width={50} height={50} />
+                  <Image src={client.imgSrc} alt={client.alt} width={50} height={50} priority />
                 </div>
               ))}
             </Marquee>

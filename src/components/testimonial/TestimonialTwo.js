@@ -171,7 +171,7 @@ const TestimonialTwo = () => {
                       </div>
                       <div className="col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0">
                         <div className="thumb d-inline-block">
-                          <Image src={testimonial.photo} alt="img" height={90} width={90} />
+                          {/* <Image src={testimonial.photo} alt="img" height={90} width={90} /> */}
                         </div> 
                       </div>
                       <div className="col-sm-8 mt-4">
