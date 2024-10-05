@@ -143,7 +143,7 @@ import {
   FaYoutube,
 } from 'react-icons/fa';
 import Image from 'next/image';
-import footer_logo from '../../../public/assets/img/logo.png';
+import footer_logo from '../../../public/assets/img/JHA_Consultancy_2.png';
 import { Address, Phone_number, Email_id } from '@/Config/config';
 import { services, payLinks, socialMedia } from '@/data/footer';
 
@@ -171,9 +171,9 @@ const FooterTwo = () => {
             {/* About Section */}
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_about">
-                <div className="thumb">
+                <div className="thumb d-flex justify-center">
                   <Link href="/home">
-                    <Image src={footer_logo} alt="img" width={200} height={50} />
+                    <Image src={footer_logo} alt="img" width={200} height={100} />
                   </Link>
                 </div>
                 <div className="details">

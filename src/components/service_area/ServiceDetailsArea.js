@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 const ServiceDetailsArea = ({ service }) => {
   return (
-    <div className="service-area pd-top-120 pd-bottom-90">
+    <div className="service-area pd-top-60 pd-bottom-90">
       <div className="container">
         <div className="row">
           {/* Sidebar */}

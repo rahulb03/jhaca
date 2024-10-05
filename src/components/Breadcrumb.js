@@ -48,7 +48,7 @@ const Breadcrumb = ({ title }) => {
       {/* ================ Breadcrumb Start ================*/}
       <div
         className='breadcrumb-area bg-cover'
-        style={{ backgroundImage: `url(${image.src})` }}  // Use image.src to reference the image path
+        style={{ backgroundImage: `url(${image.src})` , height:'50px'}}  // Use image.src to reference the image path
       >
         <div className='container'>
           <div className='breadcrumb-inner'>

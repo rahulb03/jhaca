@@ -16,7 +16,7 @@ const CaseStudyArea = ({ legal_service }) => {
   return (
     <>
       {/* ====================  Case Study Area start ==================== */}
-      <div className='service-area pd-top-120 pd-bottom-90'>
+      <div className='service-area pd-top-60 pd-bottom-90'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-4 col-12'>

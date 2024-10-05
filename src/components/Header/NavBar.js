@@ -6,7 +6,7 @@ import Image from 'next/image';
 import header_logo from '../../../public/assets/img/logo.png'; 
 import phone_icon from '../../../public/assets/img/icon/1.png'; 
 import { Phone_number } from '@/Config/config';
-import jha from '../../../public/assets/img/JHA_Consultancy.png'
+import jha from '../../../public/assets/img/JHA_Consultancy_2.png';
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
