@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.jhaconsultancy.in/
+
+# Sitemaps
+Sitemap: https://www.jhaconsultancy.in/sitemap.xml
