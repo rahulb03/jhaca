@@ -117,7 +117,7 @@ const ContactMain = () => {
           </div>
         </div>
       </div>
-      <div className="contact-page-list">
+      {/* <div className="contact-page-list">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6">
@@ -161,7 +161,7 @@ const ContactMain = () => {
           src={IframeSrc}
           title="Map"
         />
-      </div>
+      </div> */}
     </>
   );
 };
