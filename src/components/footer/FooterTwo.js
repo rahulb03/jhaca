@@ -173,7 +173,7 @@ const FooterTwo = () => {
               <div className="widget widget_about">
                 <div className="thumb d-flex justify-center">
                   <Link href="/home">
-                    <Image src={footer_logo} alt="img" width={150} />
+                    <Image src={footer_logo} alt="img" width={150} priority />
                   </Link>
                 </div>
                 <div className="details">

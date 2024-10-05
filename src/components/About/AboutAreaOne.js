@@ -133,6 +133,7 @@ const AboutAreaOne = () => {
                   className='main-img'
                   src={image1}
                   alt='Professional Accountants'
+                  priority
                 />
               </div>
             </div>

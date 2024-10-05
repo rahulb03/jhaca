@@ -166,6 +166,7 @@ const FaqAreaOne = () => {
                   className='main-img'
                   src={image}
                   alt='Accountant'
+                  priority
                 />
                 {/* <img
                   className='animate-img-bottom-right top_image_bounce'

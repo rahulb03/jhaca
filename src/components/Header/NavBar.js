@@ -87,7 +87,7 @@ const NavBar = () => {
           </div>
           <div className="logo col-lg-3">
             <Link href="/home">
-              <Image src={jha} alt="img"  />
+              <Image src={jha} alt="img" priority />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">

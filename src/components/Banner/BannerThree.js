@@ -233,6 +233,7 @@ const BannerThree = () => {
                     className="main-img"
                     src={images[currentIndex]} // Automatically slide images
                     alt={`banner-${currentIndex + 1}`}
+                    priority
                   />
                 </div>
               </div>
